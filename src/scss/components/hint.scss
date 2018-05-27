@@ -1,0 +1,36 @@
+.hint__title {
+  font-size: 14px;
+  font-family: "OpenSans", sans-serif;
+  color: rgb(36, 36, 39);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.714;
+
+  &::before {
+    display: block;
+    content: "";
+    background: #242427;
+    height: 2px;
+  }
+}
+
+.hint__text {
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: rgb(36, 36, 39);
+  line-height: 1.714;
+
+  &--gains {
+    border: 1px solid #242427;
+    padding: 10px 30px;
+    text-align: center;
+  }
+}
+
+.hint__conclusion {
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: rgb(36, 36, 39);
+  font-weight: bold;
+  line-height: 1.714;
+}
