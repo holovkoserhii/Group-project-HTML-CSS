@@ -1,0 +1,23 @@
+font-size: 25px;
+line-height: 30px;
+color: rgb(0,188,212);
+font-family: "Museo Sans Cyrl";
+text-align: center;
+
+width: 288px;
+height: 52px;
+font-size: 14px;
+letter-spacing: 1px;
+line-height: 20px;
+color: rgb(36,36,39);
+font-family: "Museo Sans Cyrl";
+text-align: center;
+
+
+.bout__list-item::before {
+content: "";
+width: 17px;
+height: 17px;
+border-radius: 8px;
+background-color: #00bbd3;
+}
