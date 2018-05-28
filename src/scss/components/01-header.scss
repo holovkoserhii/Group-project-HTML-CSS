@@ -1,0 +1,588 @@
+.header {
+    position: relative;
+    width: 100vw;
+    min-height: 600px;
+    height: 100%;
+    background-color: #2b2a2f;
+    background-repeat: no-repeat;
+    color: white;
+}
+.overlay {
+    position: absolute;
+    width: 558px;
+    min-height: 930px;
+    background-color: #242427;
+    left: 51%;
+    top:0;
+    display: none;
+}
+.page-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    min-height: 150px;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 28px;
+    margin-bottom: 50px;
+    z-index: 1;
+}
+  .logo-content {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 4px;
+  }
+  .logo-desc {
+    display: none;
+    color: white;
+
+      &__def{
+    display: none;
+   }
+  }
+  .accent-text{
+    color: #00bcd5;
+}
+  .text-bold{
+     color: white;
+     font-weight: bold;
+ }
+  .site-info{
+     display: flex;
+     flex-wrap: wrap;
+     width: 250px;
+     justify-content: space-between;
+     align-items: flex-end;
+     flex-direction: column;
+ }
+ .text-info{
+     align-self: flex-start;   
+    }
+
+ .text-info p{
+        display: block;
+        width: 140px;
+        font-size: 14px;
+        line-height: 30px;
+        font-family: "PT Sans", sans-serif;
+        font-weight: 700;
+        color: white;
+        border: 1px solid #00bcd5;
+        text-transform: uppercase;
+      }
+    .contact__text{
+        font-family: 'Raleway', sans-serif;
+        font-size: 13px;
+        color: #79787a;
+    }
+    .contact__number{
+      font-family: 'Ubuntu Mono', monospace;
+  
+        &::after{
+      content: "";
+      display: block;
+      background-color: #00bcd5;
+      width: 135px;
+      height: 1px;
+      margin-top: 2px;
+      margin-bottom: 5px;
+  }
+}
+    .contact__post{
+      color: #242427;
+      background-color: #fff;
+      font-size: 16px;
+      display: none;
+  }
+  .aside-text{
+    display: none;
+}
+.header-content-wrapper{
+    text-align: center;
+}
+.header-content {
+    margin: 0 auto;
+    max-width: 290px;
+    width: 100%;
+}
+.header-image{
+  display: none;
+}
+
+.header__title-desc{
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.header__title-desc span{
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: lowercase;
+    color: #79787a;
+    font-weight: normal;
+   
+}
+.header__title {
+    font-size: 30px;
+    text-transform: uppercase;
+    max-width: 290px;
+    width: 100%;
+    margin: 0 auto;  
+    margin-bottom: 40px;
+
+  &::before{
+     content: "";
+     display: block;
+     background-color: #00bcd5;
+     width: 150px;
+     height: 3px;
+     margin: 0 auto;
+     margin-bottom: 15px;
+ }
+}
+.block{
+    display: block;
+}
+.header__post{
+ max-width: 220px;
+ width: 100%;
+ margin: 0 auto;
+ font-size: 16px;
+}
+.header__post-item-top{
+    margin-bottom: 15px;   
+    font-family: "PT Sans", sans-serif;
+}
+.header__post-item-bottom{
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 700;  
+}
+
+@media (max-width: 767px){
+    .page-nav{
+        max-width: 290px;
+        width: 100%;
+    }
+    .header-featchers{
+        display: none;
+    }
+    .logo-desc {
+        display: none;
+    }
+    .text-info{
+        text-align: center;
+      }   
+    }
+     @media (min-width: 768px){
+    .header {
+        min-height: 724px;
+    }
+    .page-nav {
+        
+       max-width: 690px;
+       width: 100%;   
+       margin-bottom: 0;
+   }
+   .logo-content {
+       max-width: 220px;
+       padding: 0;
+   }
+   .logo-desc{
+       display: block;
+   }
+
+   .logo-desc__name{
+    font-family: "PT SANS", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 11px;
+    max-width: 120px;
+    width: 100%;
+}
+.site-info{
+    flex-direction: row;
+    max-width: 410px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+   .contact{
+       order: 1;
+   }
+   .text-info{
+       margin: 0;
+       text-align: center;
+   }
+   @media (min-width: 768px){
+    .header {
+        min-height: 724px;
+    }
+    .page-nav {
+       max-width: 690px;
+       width: 100%;   
+       margin-bottom: 0;
+   }
+   .logo-content {
+       max-width: 220px;
+       padding: 0;
+   }
+   .logo-desc{
+       display: block;
+   
+   &__name{
+    font-family: "PT SANS", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 11px;
+    max-width: 120px;
+    width: 100%;
+}
+   }
+.site-info{
+    flex-direction: row;
+    max-width: 410px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.contact{
+       order: 1;
+   }
+.text-info{
+       margin: 0;
+       text-align: center;
+   }  
+   .header-content{
+    max-width: 690px;
+    width: 100%;
+    text-align: center;
+   }
+   .header__title-desc{ 
+    font-size: 20px;
+    margin-bottom: 30px;
+    max-width: 290px;
+    margin: 0 auto;
+    margin-bottom: 28px;
+  }
+  .header__title {
+    max-width: 574px; 
+    width: 100%;
+    font-size: 40px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+
+  &::before{
+    width: 576px;
+    height: 6px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+   }
+  }
+.header__post{
+    max-width: 674px;
+    width: 100%;   
+
+      &::before{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    margin-top: 28px;
+    margin-bottom: 34px;
+    background-color: #00bcd5;
+    width: 120px;
+    height: 1px;
+}
+}
+.header-featchers__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 505px;
+    margin: 0 auto;
+    list-style: none;
+}
+.header-featchers__item {
+   width: 150px;
+   font-size: 16px;
+   text-align: center;
+
+     &_bold {
+   border-right: 1px solid white;
+   font-family: "PT SANS", sans-serif;
+   font-weight: 700;
+   text-transform: uppercase;
+   text-align: left;
+   }
+}
+.header-featchers__item_before::before{
+   content: "";
+   display: inline-block;
+   width: 25px;
+   height: 17px;
+}
+}
+@media (min-width: 1140px){
+    .header {
+        max-width: 1920px;
+        min-height: 845px;
+        background-image: url('../img/header-bg.png');
+    }
+   .overlay{
+        display: block;
+    }
+    .page-nav{
+        max-width: 1455px;
+        width: 100%;
+        margin-left: 4.1%;
+        margin-bottom: 50px;
+        z-index: 1;
+      }
+      .logo-content{
+        max-width: 390px;
+        width: 100%; 
+    }
+    .logo-desc{
+        display: block;
+        font-size: 15px;
+        max-width: 270px;
+        width: 100%; 
+
+     &__name{
+        text-transform: uppercase;  
+        font-family: "PT SANS", sans-serif; 
+      }
+     &__def{
+        font-family: 'Ubuntu Mono', monospace;
+        font-size: 14px;
+        display: block;
+        font-size: 14px;
+    }
+    }
+    
+  .site-info{
+      max-width: 510px;
+      width: 100%;
+  }
+  .text-info p {
+    writing-mode: vertical-lr;
+    width: 40px;
+    border: none;
+    text-align: right;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Ubuntu Mono', monospace;
+} 
+.text-info p::after{
+    display: block;
+    content: "";
+    background-color: #00bcd5ff;
+    width: 1px;
+    height: 237px;
+}
+.contact{
+    order: 1;
+    max-width: 240px;
+    width: 100%;
+
+   &__post{
+    display: block;
+    text-align: center; 
+    height: 33px;
+    line-height: 33px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "PT SANS", sans-serif;
+}
+   &__text{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+   &__number{
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 20px;
+    font-weight: 700;
+
+    &::after{
+    width: 260px;
+    height: 1px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+}
+}
+.header-content-wrapper{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 840px;
+    width: 100%;
+    margin-left: 4.1%;
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 700;
+    font-size: 18px;
+}
+.link{
+    position: relative;
+    width: 292px;
+    height: 76px; 
+    top: 844px;
+    left: 60px;
+}
+.header-link{
+    position: absolute;
+    display: block;
+    text-decoration: none;
+    background-color: #00bcd4;
+    color: #242427;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 262px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    font-family: "PT SANS", sans-serif;
+
+     &::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: 230px;
+    top: 17px;
+    background-image: url("../img/brackets-before.png");
+    width: 40px;
+    height: 40px;
+    z-index: 3;
+    rotate: (180deg);
+}
+
+    &::after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 230px;
+    bottom: 15px;
+    background-image: url("../img/brackets.png");
+    width: 40px;
+    height: 40px;
+    z-index: 3;
+}
+}
+.header-image{
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 65.3%;
+}
+.header-content{
+    max-width: 470px;
+    text-align: left;
+    margin: 0;
+}
+.header__title-desc{
+   font-size: 26px;
+   max-width: 490px;
+   width: 100%;
+   text-align: right;
+}
+.header__title-desc span {
+    font-size: 24px;
+    display: block;
+}
+.header__title{
+    font-size: 64px;
+    font-family: "PT Sans", sans-serif;
+    margin: 0;
+    text-align: right;
+    margin-bottom: 85px;
+
+        &::before{
+    content: "";
+    display: block;
+    width: 572px;
+    height: 5px;
+    background-color: ;
+    margin-top: 10px;
+    text-align: right;
+}
+}
+.header__post{
+   display: inline-block;
+       &::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    background-color: #00bcd4;
+    width: 120px;
+    height: 1px;
+    margin: 0;
+    top: 435px;
+    left: 210px;
+}
+.header__post-item-top{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400; 
+    font-size: 16px;
+}
+
+.header-featchers {
+    position: absolute;
+    top: 390px;
+    left: 53.5%;
+    z-index: 2;
+}
+.header-featchers__list{
+    flex-direction: column;
+    min-height: 300px;
+    height: 100%;
+  
+}
+.header-featchers__item {
+    width: 166px;
+    text-align: left;
+    font-size: 20px;
+    display: inline-block;
+}
+.header-featchers__item_bold {
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 22px;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid white;
+}
+.header-featchers__item_upper::after {
+    content: "";
+    display: block;
+    width: 240px;
+    height: 2px;
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+.header-featchers__item_before::before{
+    content: "<_";
+    display: inline-block;
+   
+    width: 30px;
+    height: 32px;
+    color: #00bcd4;
+}
+.aside-text{
+    display: block;
+
+  &__block{
+    writing-mode: vertical-lr;
+    &::before{
+    content: "\005B";
+    display: inline-block;
+    color: #00bcd4;
+    width: 16px;
+    height: 16px; 
+}
+  }
+}
