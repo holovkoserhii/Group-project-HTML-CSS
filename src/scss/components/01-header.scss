@@ -1,6 +1,6 @@
 .header {
     position: relative;
-    width: 100vw;
+    width: 1920pxcc;
     min-height: 600px;
     height: 100%;
     background-color: #2b2a2f;
@@ -13,7 +13,7 @@
     min-height: 930px;
     background-color: #242427;
     left: 51%;
-    top:0;
+    top: 0;
     display: none;
 }
 .page-nav{
@@ -130,6 +130,7 @@
     width: 100%;
     margin: 0 auto;  
     margin-bottom: 40px;
+    color: white;
 
   &::before{
      content: "";
@@ -174,7 +175,7 @@
         text-align: center;
       }   
     }
-     @media (min-width: 768px){
+     @media (min-width: 768px) {
     .header {
         min-height: 724px;
     }
@@ -214,6 +215,7 @@
        margin: 0;
        text-align: center;
    }
+}
    @media (min-width: 768px){
     .header {
         min-height: 724px;
@@ -322,11 +324,11 @@
    height: 17px;
 }
 }
-@media (min-width: 1140px){
+@media (min-width: 1140px) {
     .header {
         max-width: 1920px;
         min-height: 845px;
-        background-image: url('../img/header-bg.png');
+        background-image: url('/src/img/header-bg.png');
     }
    .overlay{
         display: block;
@@ -338,6 +340,7 @@
         margin-bottom: 50px;
         z-index: 1;
       }
+
       .logo-content{
         max-width: 390px;
         width: 100%; 
@@ -363,6 +366,8 @@
   .site-info{
       max-width: 510px;
       width: 100%;
+      margin: 0;
+      padding: 0;
   }
   .text-info p {
     writing-mode: vertical-lr;
@@ -479,7 +484,7 @@
     left: 65.3%;
 }
 .header-content{
-    max-width: 470px;
+    max-width: 480px;
     text-align: left;
     margin: 0;
 }
@@ -498,20 +503,22 @@
     font-family: "PT Sans", sans-serif;
     margin: 0;
     text-align: right;
-    margin-bottom: 85px;
+    margin-bottom: 75px;
 
         &::before{
     content: "";
     display: block;
     width: 572px;
     height: 5px;
-    background-color: ;
+    background-color: #00bcd4;
     margin-top: 10px;
     text-align: right;
 }
 }
 .header__post{
    display: inline-block;
+   width: 574px;
+
        &::before{
     content: "";
     display: inline-block;
@@ -523,10 +530,12 @@
     top: 435px;
     left: 210px;
 }
+}
 .header__post-item-top{
     font-family: "PT Sans", sans-serif;
     font-weight: 400; 
     font-size: 16px;
+    margin: 0;
 }
 
 .header-featchers {
@@ -572,7 +581,7 @@
     height: 32px;
     color: #00bcd4;
 }
-.aside-text{
+.aside-text {
     display: block;
 
   &__block{
@@ -584,5 +593,6 @@
     width: 16px;
     height: 16px; 
 }
-  }
+}
+}
 }
