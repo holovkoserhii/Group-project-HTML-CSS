@@ -8,6 +8,7 @@ html {
   *::before,
   *::after {
     box-sizing: inherit;
+    margin: 0 auto;
   }
   
   .img {
@@ -17,9 +18,19 @@ html {
   }
 
 .about{
+    width: 320px;
+    margin: 0 auto;
+    padding: 0; 
+    background-image: url(../img/Background16.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrapper__about-background{
     width: 290px;
     margin: 0 auto;
+    padding: 0;
 }
+
 .section-title {
     font-size: 25px;
     text-transform: uppercase;
@@ -56,15 +67,16 @@ html {
 }
 
 
+
 .about__section-title-sub-little {
     display: block;
     width: 150px;
     height: 2px;
     background: #232327;
-    margin: 0 auto;
+    margin-bottom: 22px;
 }
 .about__item-title{
-    margin-bottom: 14px;
+    margin: 0 auto 14px;
 }
 .about__item-desc{
     font-size: 16px;
@@ -72,7 +84,7 @@ html {
     color: #242427;
     font-family: "Museo Sans Cyrl";
     text-transform: uppercase;
-    margin-bottom: 22px;
+    margin-bottom:  22px;
 }
 .about__item-desc-little{
     font-size: 16px;
@@ -80,13 +92,14 @@ html {
     color: #242427;
     font-family: "Open Sans";
     font-weight: bold;
+    margin-bottom: 45px;
 }
 .about__list-item{
 font-size: 14px;
 line-height: 20px;
 color: #242427;
 font-family: "Open Sans";
-margin-bottom: 28px;
+margin: 0 auto 28px;
 }
 .about__list-item::before {
     display: block;
@@ -104,12 +117,14 @@ margin-bottom: 28px;
     color: #242427;
     font-family: "Ubuntu Mono";
     font-weight: bold;
+    margin-bottom: 36px;
 }
 .about__item-company-work{
     font-size: 16px;
     line-height: 24px;
     color: #242427;
     font-family: "Ubuntu Mono";
+    margin: 26px 0 46px;
 }
 .section-title-sub{
     width: 290px;
@@ -124,11 +139,57 @@ margin-bottom: 28px;
     height: 145px;
     box-shadow: 0px 3px 7px hsla(0, 0%, 0%, 0.2);
     background-color: #ffffff;
-    margin-bottom: 28px;
+}
+.line{
+    margin-top: 50px;
 }
 .about__link-logo{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.about__title-achievements{
+    font-size: 16px;
+    line-height: 26px;
+    color: #242427;
+    font-family: "Museo Sans Cyrl";
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto 48px;
+    padding-top: 65px;
+}
+.about__title-achievements::before{
+    display: block;
+    content: "";
+    width: 150px;
+    height: 2px;
+    background: #232327;
+    margin-bottom: 22px;
+}
+.wrapper__achievements-background{
+    background-color: #ffffff;
+}
+.wrapper__achievements{
+    display: block;
+width: 290px;
+height: auto;
+box-shadow: 0px 11px 10px rgba(0,0,0,0.11);
+background-color: #fbfbfb;
+margin: 0 auto;
+}
+.about__item p{
+    font-size: 14px;
+line-height: 24px;
+color: #242427;
+font-family: "Open Sans";
+text-transform: none;
+}
+.about__title-achievements-item{
+font-size: 14px;
+letter-spacing: 1px;
+line-height: 24px;
+color: #242427;
+font-family: "Open Sans";
+font-weight: 800;
 }
