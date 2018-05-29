@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "scss:build": "node-sass src/scss/styles.scss -o src/css",
+    "scss:watch": "node-sass --watch src/scss/styles.scss -o src/css",
+    "build": "npm run scss:build && npm run scss:watch",
     "prepare": "gulp prepare",
     "start": "gulp start",
-    "build": "gulp build",
+    "build-g": "gulp build",
     "svg-sprite": "gulp svg-sprite",
     "images": "gulp images"
   },
@@ -44,5 +47,7 @@
     "run-sequence": "^2.2.1",
     "stylelint": "^9.1.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "node-sass": "^4.9.0"
+  }
 }
