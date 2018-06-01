@@ -1,0 +1,151 @@
+.wrapper{
+    &__teacherst-background{
+    width: 290px;
+    margin: 0 auto;
+    padding: 0;
+    }
+    &__item-background{
+        display: block;
+        width: 290px;
+        background-color: $item-background-color;
+    }
+}
+.teachers__list {
+    position: relative;
+}
+.teachers{
+    width: 320px;
+    margin: 0 auto;
+    padding: 0; 
+    background-image: url(../../img/Background16.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__title{
+        font-size: 14px;
+        line-height: 20px;
+        color: $dark-gray-color;
+        font-family: $section-title-font;
+        text-align: center;
+        text-transform: uppercase;
+        padding:22px 0;
+    }
+    &__title--desc{
+        margin-bottom: 50px;
+    }
+    &__item-title{
+        margin: 0 auto 14px;
+    }
+    &s__section-title-sub-little {
+        display: block;
+        width: 150px;
+        height: 2px;
+        background: $background-color;
+        margin-bottom: 22px;
+    }
+    &__item-desc{
+        font-size: 14px;
+        line-height: 24px;
+        color: $dark-gray-color;
+        font-family: $main-text-font;
+        font-weight: 800;
+        margin-bottom: 34px;
+    }
+    &__section-line-little{
+        display: block;
+        width: 290px;
+        height: 36px;
+        position: relative;
+    }
+    &__list-item{
+        display: block;
+        width: 290px;
+        height: auto;
+        box-shadow: 0px 32px 35px rgba(0,0,0,0.19);
+        background-color: $white-text-color;
+        position: relative;
+    }
+    &__list-item-developer,
+    &__list-name,
+    &__list-name-developer,
+    &__list-item-skills{
+        color: $dark-gray-color;
+        font-family: $secondary-title-font;
+        font-weight: bold;
+    }
+    &__list-item-developer{
+        display: inline-block;
+        font-size: 24px;
+        line-height: 36px;
+        position: absolute;
+        right: 0;
+        &::before{
+            display: inline-block;
+            content: "";
+            width: 100px;
+            height: 2px;
+            background-color: $before-line-color;
+        }
+    }
+    &__item-background{
+        display: block;
+        width: 290px;
+        background-color: $line-color;
+    }
+    &__list-name{
+        font-size: 20px;
+        line-height: 24px;
+        display: inline-block;
+        width: 142px;
+        margin: 15px 0 0 18px;
+    }
+    &__list-name-developer{
+        font-size: 14px;
+        line-height: 18px;
+        display: inline-block;
+        width: 142px;
+        margin: 15px 0 0 18px;
+        &::before{
+            display: inline-block;
+            content: "";
+            width: 60px;
+            height: 2px;
+            background-color: $accent-text-color-before;
+            position: absolute;
+            top: 70px;
+        }
+    }
+    &__summary{
+        display: inline-block;
+        font-size: 14px;
+        line-height: 20px;
+        color: $dark-gray-color;
+        font-family: $main-text-font;
+        font-weight: bold;
+        margin:0 0 22px 15px ;
+    }
+    &__list-item-skills{
+        font-size: 13px;
+        line-height: 18px;
+        text-transform: uppercase;
+        margin-left:15px; 
+        padding-bottom: 26px;
+    }
+    &__button{
+        font-size: 14px;
+        line-height: 26px;
+        color: $white-text-color;
+        font-family: $section-title-font;
+        box-shadow: 0px 1px 1px rgba(28,28,30,0.32);
+        margin-bottom: 64px;
+    
+    }
+}
+.button{
+    width: 290px;
+    height: 55px;
+    border-radius: 5px;
+    box-shadow: 0px 12px 20px rgba(28,28,30,0.21);
+    background-image: linear-gradient(90deg, #ffc517 0%, #fb0640 100%);
+    cursor: pointer;
+}
+
