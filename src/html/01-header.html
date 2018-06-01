@@ -1,15 +1,19 @@
 <header class="section header">
+    <div class="section-wrapper">
     <nav class="page-nav">
         <div class="logo-content">
           <a href="#" class="site-logo">
-            <img srcset="img/logo.png 101w, img/logo@2x.png 202w" sizes= "101px" src="../img/logo.png" alt="site logo"  height="29">     
-          </a>
+              <picture>
+                  <source srcset="../img/logo-smaller.png" media="(max-width: 768px) and (min-width:1139px)" sizes="80px" height="20">
+                  <img srcset="img/logo.png 101w, img/logo@2x.png 202w" sizes= "101px" src="../img/logo.png" alt="site logo"  height="29">     
+             </picture>
+        </a>
           <div class="logo-desc">
               <p class="logo-desc__name">Центр подготовки IT-специалистов</p> 
               <p class="logo-desc__def">Помагаем уверенно войти в IT сферу</p>
             </div>
         </div>
-        <div class="site-info">
+        <!--<div class="site-info">
          <div class="contact"> 
                <p class="contact__post">Запишитесь на курс:</p>
                <p class="contact__number"><span class="accent-text">+38 (093) 343-21-27</span></p>
@@ -18,8 +22,15 @@
             <div class="text-info">
               <p >Старт <span class="accent-text">17</span> марта </p> 
          </div>
-        </div>
-         
+        </div>-->
+        <div class="contact"> 
+            <p class="contact__post">Запишитесь на курс:</p>
+            <p class="contact__number"><span class="accent-text">+38 (093) 343-21-27</span></p>
+            <p class="contact__text"> Набор: от <span class="text-bold">23</span> до <span class="text-bold">35</span> лет</p>
+         </div>
+         <div class="text-info">
+           <p >Старт <span class="accent-text">17</span> марта </p> 
+      </div>
         </nav>
        
         <div class="header-content-wrapper">
@@ -28,23 +39,29 @@
         </div>
             <div class="header-content">
                 <p class="section-title-desc header__title-desc">
-                    Начните работать в сфере IT_ <span>после обучения на курсе:</span>
+                    Начните работать в сфере IT_ <span class="block">после обучения на курсе:</span>
                 </p>
-                 <h1 class="section-title header__title">
-                    <span class="block accent-text">_full stack -</span> разработчик с нуля
+                 <h1 class="header__title">
+                    <span class="block block_center accent-text">_full stack -</span> разработчик с нуля
                 </h1> 
              
                <div class="header__post">
-                   <p class="header__post-item-top">Помогаем вам занять должность <span class="text-bold">Junior Full Stack-разработчика</span> </p>
-                   <p class="header__post-item-bottom"><span class="accent-text">85%</span> выпускников курса  работают в IT-компаниях Украины</p>
+                   <p class="header__post-item_top">Помогаем вам занять должность <span class="text-bold">Junior Full Stack-разработчика</span> </p>
+                   <p class="header__post-item_bottom"><span class="accent-text">85%</span> выпускников курса <span class="block">работают в IT-компаниях Украины</span> </p>
         </div>
             </div>    
          </div>
             <div class="header-featchers">
                 <ul class="header-featchers__list">
-                    <li class="header-featchers__item header-featchers__item_bold">5 готовых  проектов в  Портфолио</li>
-                    <li class="header-featchers__item header-featchers__item_before">Реальный опыт веб-разработки  в команде</li>
-                    <li class="header-featchers__item header-featchers__item_before">Базовый IT английский, карьерные навыки </li>
+                    <li class="header-featchers__item">
+                        <div class="header-featchers__item-post header-featchers__item-post_bold">5 готовых  проектов в  Портфолио</div>
+                    </li>
+                    <li class="header-featchers__item header-featchers__item_before">
+                        <div class="header-featchers__item-post">Реальный опыт веб-разработки  в команде</div>
+                    </li>
+                    <li class="header-featchers__item header-featchers__item_before"
+                    ><div class="header-featchers__item-post">Базовый IT английский, карьерные навыки </div
+                        ></li>
                 </ul>
             </div>
             <div class="overlay">
@@ -55,5 +72,5 @@
             </div> 
             <img src="../img/hud.png" alt="hud" class="header-image"> 
           </div>
-          
+        </div>
 </header>
