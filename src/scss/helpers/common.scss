@@ -1,128 +1,147 @@
-.block{
+.block {
+  display: block;
+}
+.text-bold {
+  font-weight: 700;
+}
+.accent-text {
+  color: $accent-text-color;
+}
+
+.external-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 290px;
+}
+
+@media (min-width: 748px) {
+  .external-wrapper {
+    flex-basis: 690px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .external-wrapper {
+    flex-basis: 1760px;
+  }
+}
+
+.button {
+  width: 322px;
+  height: 68px;
+  color: #fff;
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  background: linear-gradient(to right, #ffb31b, #fb1c3c);
+}
+
+// Заголовок секції
+.section__title {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #242427;
+  margin-bottom: 30px;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 4px;
+    background-color: #00bcd4;
+  }
+}
+
+.section__title-desc {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+@media (max-width: 747px) {
+  .section__title::after {
+    content: "";
     display: block;
+    width: 150px;
+    height: 2px;
+    background-color: #242427;
+    margin: 0 auto;
+    margin-top: 12px;
+    margin-bottom: 20px;
+  }
+  .accent-block {
+    background-color: transparent;
+  }
 }
-.text-bold{
-    font-weight: 700;
-}
-.accent-text{
+
+@media (min-width: 748px) {
+  .section__title {
+    font-size: 30px;
+    line-height: 40px;
+
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 18px;
+      height: 4px;
+      background-color: #00bcd4;
+    }
+  }
+  .accent-block {
+    display: inline-block;
+    width: 85px;
+    height: 24px;
+    text-align: center;
+    background-color: #242427;
     color: #00bcd5;
-}
-.button{
-width: 322px;
-height: 68px;
-color: #fff;
-font-family: 'Ubuntu Mono', monospace;
-font-size: 30px;
-background: linear-gradient(to right,#ffb31b, #fb1c3c);
-}
-
-.section__title{
-    font-family: 'PT Sans',sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    font-size: 25px;
-    text-transform: uppercase;
-    color: #242427;
-    
+  }
+  .section__title-desc_top {
+    display: block;
+    text-align: right;
+  }
+  .section__title-desc_bottom {
+    display: block;
+    text-align: right;
+  }
 
-    &::before{
-        content: "";
-        display: inline-block;
-        width: 14px;
-        height: 4px;
-        background-color: #00bcd4;
-
-    }
-}
-    .section__title-desc{
-        display: block;
-        width: 100%;
-        margin: 0 auto;
-        text-transform: uppercase;
-        font-family: 'PT Sans',sans-serif;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 24px;
-    }
-   
-   @media (max-width: 767px){
-
-    .section__title::after{
-        content: "";
-        display: block;
-        width: 150px;
-        height: 2px;
-        background-color: #242427;
-        margin: 0 auto;
-        margin-top: 12px;
-        margin-bottom: 20px; 
-}
-.accent-block{
-   background-color: transparent;
-  
-}
-}
-
-@media (min-width: 768px){
-    .section__title{
-        font-size: 30px;
-        line-height: 40px;
-
-        &::before{
-            content: "";
-            display: inline-block;
-            width: 18px;
-            height: 4px;
-            background-color: #00bcd4;
-        }
-    }
-    .accent-block{
-        display: inline-block;
-        width: 85px;
-        height: 24px;
-        text-align: center;
-        background-color: #242427;
-        color: #00bcd5;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 700;
-    }
-   .section__title-desc_top{
-       display: block;
-       text-align: right;
-}
-   .section__title-desc_bottom{
-     display: block;
-     text-align: right;
-    }
-
-.section__title-desc_top::after{
+  .section__title-desc_top::after {
     content: "";
     display: block;
     width: 320px;
     height: 2px;
     background-color: #242727;
+  }
 }
-}
-@media (min-width: 1920px){
-    .section__title{
-        font-size: 42px;
-        line-height: 50px;
-
-}
- .section__title-desc{
+@media (min-width: 1900px) {
+  .section__title {
+    font-size: 42px;
+    line-height: 50px;
+  }
+  .section__title-desc {
     font-size: 18px;
     line-height: 30px;
-}
-.section__title-desc_top::after{
+  }
+  .section__title-desc_top::after {
     content: "";
     display: block;
     width: 430px;
     height: 2px;
     background-color: #242727;
-
-}
-.accent-block{
+  }
+  .accent-block {
     display: inline-block;
     width: 112px;
     height: 26px;
-}
+  }
 }
