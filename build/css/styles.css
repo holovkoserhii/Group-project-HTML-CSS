@@ -1021,8 +1021,8 @@ html {
   cursor: pointer;
 }
 
-.differences {
-  margin-bottom: 40px;
+.page-section--differences {
+  margin-bottom: 140px;
 }
 
 .differences__item-title {
@@ -1052,7 +1052,7 @@ html {
 
 .differences__item-desc li::before {
   display: inline-block;
-  content: '';
+  content: "";
   width: 10px;
   height: 10px;
   margin-right: 12px;
@@ -1068,6 +1068,10 @@ html {
   border-left: none;
   border-right: none;
   width: 290px;
+}
+
+.differences__wrapper {
+  background: #ffffff;
 }
 
 .gains__special {
@@ -1107,10 +1111,11 @@ html {
   .hint {
     border: none;
     background-image: url("/img/hint-background.png");
-    background-size: contain;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 624px;
     padding: 40px;
+    margin-bottom: 30px;
   }
 
   .section__title {
@@ -1158,6 +1163,31 @@ html {
   .differences__item-title::after {
     margin-left: 0px;
   }
+
+  .hint__title--differences {
+    margin-bottom: 10px;
+  }
+
+  .differences__wrapper {
+    width: 572px;
+    position: relative;
+  }
+
+  .hint--differences {
+    width: 522px;
+  }
+
+  .hint--differences::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 300px;
+    height: 300px;
+    z-index: -1;
+    background: #00bcd4;
+    bottom: -20px;
+    left: -20px;
+  }
 }
 
 @media (min-width: 1900px) {
@@ -1189,6 +1219,32 @@ html {
 @media (min-width: 1920px) {
   .external-wrapper {
     width: 1760px;
+  }
+
+  .hint__title--differences::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 300px;
+    height: 300px;
+    z-index: -1;
+    background: #00bcd4;
+    right: -20px;
+    top: 10px;
+  }
+
+  .section__title--differences::after {
+    position: absolute;
+    display: block;
+    content: "";
+    top: 10px;
+    left: -100px;
+    width: 50%;
+    height: 50%;
+    z-index: -1;
+    background-image: url("/img/html15-20 fig 01.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
   }
 }
 
