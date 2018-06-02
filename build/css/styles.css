@@ -538,11 +538,46 @@ html {
   color: #00bcd4;
 }
 
+.page-section {
+  margin-bottom: 40px;
+}
+
+.hint {
+  display: block;
+  border: 2px solid #242427;
+  width: 246px;
+}
+
+.hint__title {
+  font-size: 14px;
+  font-family: "OpenSans", sans-serif;
+  color: #242427;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.714;
+}
+
+.hint__text {
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: #242427;
+  line-height: 1.714;
+}
+
+.hint__conclusion {
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: #242427;
+  font-weight: bold;
+  line-height: 1.714;
+}
+
 .external-wrapper {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
   justify-content: center;
-  flex-basis: 290px;
+  width: 290px;
 }
 
 .button {
@@ -986,6 +1021,10 @@ html {
   cursor: pointer;
 }
 
+.differences {
+  margin-bottom: 40px;
+}
+
 .differences__item-title {
   font-size: 20px;
   font-family: "UbuntuMono";
@@ -1008,6 +1047,27 @@ html {
   font-family: "OpenSans";
   color: #242427;
   line-height: 1.714;
+  margin-bottom: 10px;
+}
+
+.differences__item-desc li::before {
+  display: inline-block;
+  content: '';
+  width: 10px;
+  height: 10px;
+  margin-right: 12px;
+  background: #000000;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.hint--differences {
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  width: 290px;
 }
 
 .gains__special {
@@ -1033,9 +1093,24 @@ html {
   line-height: 1.714;
 }
 
+@media (min-width: 0px) {
+  .section__title--differences::after {
+    height: 0px;
+  }
+}
+
 @media (min-width: 748px) {
   .external-wrapper {
-    flex-basis: 690px;
+    width: 690px;
+  }
+
+  .hint {
+    border: none;
+    background-image: url("/img/hint-background.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 624px;
+    padding: 40px;
   }
 
   .section__title {
@@ -1079,6 +1154,10 @@ html {
     height: 2px;
     background-color: #242727;
   }
+
+  .differences__item-title::after {
+    margin-left: 0px;
+  }
 }
 
 @media (min-width: 1900px) {
@@ -1109,7 +1188,7 @@ html {
 
 @media (min-width: 1920px) {
   .external-wrapper {
-    flex-basis: 1760px;
+    width: 1760px;
   }
 }
 
