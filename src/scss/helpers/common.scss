@@ -67,10 +67,11 @@
   .hint {
     border: none;
     background-image: url('/img/hint-background.png');
-    background-size: contain;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 624px;
     padding: 40px;
+    margin-bottom: 30px;
   }
 }
 
