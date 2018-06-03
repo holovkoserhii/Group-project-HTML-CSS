@@ -1,0 +1,217 @@
+@media (min-width: 0px) {
+  .section__title--check::after {
+    height: 0px;
+  }
+}
+
+.page-section--check {
+  // background: #000000;
+}
+
+.check__wrapper {
+  background: #000000;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.external-wrapper--check {
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 290px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.check__item-desc--check-conclusion {
+  font-family: $primary-title-font;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.button--check {
+display: block;
+}
+
+@media (min-width: 748px) {
+  .external-wrapper--check {
+    width: 690px;
+  }
+}
+
+@media (min-width: 1900px) {
+  .external-wrapper--check {
+    width: 1760px;
+  }
+}
+
+.check__item-desc li {
+  font-family: $main-text-font;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.check__item-desc li::before {
+  display: inline-block;
+  content: "";
+  width: 15px;
+  height: 15px;
+  margin-right: 12px;
+  background: $accent-text-color-before;
+  border-radius: 50%;
+  border: 1px solid $white-text-color;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.check__item-desc--notforyou li::before {
+  background: red;
+}
+
+.check__item-title {
+  font-family: $secondary-title-font;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.check__item-desc {
+  margin-bottom: 30px;
+}
+
+.check__accent {
+  display: inline;
+  background: #000;
+  color: $accent-text-color-before;
+}
+
+// .page-section--differences {
+//   margin-bottom: 140px;
+// }
+
+// @media (min-width: 0px) {
+//   .section__title--differences::after {
+//     height: 0px;
+//   }
+// }
+
+// .differences__item-title {
+//   font-size: 20px;
+//   font-family: "UbuntuMono";
+//   color: #242427;
+//   font-weight: bold;
+//   line-height: 1.2;
+
+//   &::after {
+//     display: block;
+//     content: "";
+//     background: #00bcd4;
+//     margin-top: 10px;
+//     width: 80px;
+//     height: 2px;
+//   }
+// }
+
+// .differences__item-desc {
+//   font-size: 14px;
+//   font-family: "OpenSans";
+//   color: #242427;
+//   line-height: 1.714;
+//   margin-bottom: 10px;
+// }
+
+// .differences__item-desc li::before {
+//   display: inline-block;
+//   content: "";
+//   width: 10px;
+//   height: 10px;
+//   margin-right: 12px;
+//   background: #000000;
+//   border-radius: 50%;
+//   background-repeat: no-repeat;
+//   background-size: contain;
+//   background-position: center;
+// }
+
+// .hint--differences {
+//   border-bottom: none;
+//   border-left: none;
+//   border-right: none;
+//   width: 290px;
+// }
+
+// .differences__wrapper {
+//   background: $white-text-color;
+// }
+
+// @media (min-width: 748px) {
+//   .differences__item-title::after {
+//     margin-left: 0px;
+//   }
+
+//   .hint__title--differences {
+//     margin-bottom: 10px;
+//   }
+
+//   .differences__wrapper {
+//     // background-color: $accent-text-color;
+//     width: 572px;
+//     // height: 564px;
+//     position: relative;
+//     // background-image: url('/img/html15-20 fig 01.png');
+//     // background-size: 50%;
+//     // background-repeat: no-repeat;
+//   }
+
+//   .hint--differences {
+//     width: 522px;
+//     &::after {
+//       position: absolute;
+//       display: block;
+//       content: "";
+//       width: 300px;
+//       height: 300px;
+//       z-index: -1;
+//       background: $accent-text-color;
+//       bottom: -20px;
+//       left: -20px;
+//     }
+//   }
+// }
+
+// @media (min-width: 1920px) {
+//   .hint__title--differences::after {
+//     position: absolute;
+//     display: block;
+//     content: "";
+//     width: 300px;
+//     height: 300px;
+//     z-index: -1;
+//     background: $accent-text-color;
+//     right: -20px;
+//     top: 10px;
+//   }
+
+//   .section__title--differences::after {
+//     position: absolute;
+//     display: block;
+//     content: "";
+//     top: 10px;
+//     left: -100px;
+//     width: 50%;
+//     height: 50%;
+//     z-index: -1;
+//     background-image: url("/img/html15-20 fig 01.png");
+//     background-size: 50%;
+//     background-repeat: no-repeat;
+//   }
+// }
