@@ -1,0 +1,15 @@
+@mixin list-flex($type: 'all'){
+    display: flex;
+
+    @if $type== 'all'{
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center
+    } @else if $type== 'hor'{
+        justify-content: space-between;
+    } @else if $type== 'wrap'{
+        flex-wrap: wrap;
+    } @else if $type== 'ver'{
+        align-items: center;
+}
+}
