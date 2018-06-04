@@ -2,24 +2,21 @@
    Import partials below
 */
 @import "helpers/fonts";
+@import "normalize";
+@import "helpers/variables";
+@import "base";
+@import "helpers/placeholders";
 @import "helpers/common";
-@import 'normalize';
 
-//Components
+// //Components
 @import "components/img";
-@import "components/buttons";
-@import "components/hint";
-@import "components/section-title";
+@import "components/10-about";
+@import "components/11-teachers";
 @import "components/15-differences";
 @import "components/16-gains";
 @import "components/08-09section";
-
-// @import "helpers/variables";
-// @import "helpers/placeholders";
 // @import "helpers/mixins";
 // @import "helpers/extras";
-// @import "normalize";
-// @import "base";
 
 // // Components
 // @import "components/img";

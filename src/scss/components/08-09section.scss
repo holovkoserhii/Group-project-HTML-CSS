@@ -1,0 +1,72 @@
+.future {
+  margin: auto;
+}
+.caption {
+  width: 610px;
+  height: 268px;
+  font-size: 42px;
+  color: #242427;
+  font-family: "Museo Sans Cyrl";
+  margin: auto;
+}
+.list {
+  margin: auto;
+
+}
+.titles {
+width: 116px;
+display: inline:
+text-align: right;
+margin: auto;
+}
+.titles::before {
+  background: url(../img/Elips.png) no-repeat;
+  content: '';
+  position: absolute;
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  width: 63px;
+  height: 63px;
+  padding-left: 13px;
+  padding-top: 13px;
+}
+.frontend--title::before {
+  content:url(../img/code.png);
+}
+.backend--title::before {
+content:url(../img/codings.png);
+}
+.fullstack--title::before {
+content:url(../img/coding.png);
+}
+.web-title::before {
+content:url(../img/wordpress.png);
+}
+.html-title::before {
+content:url(../img/website.png);
+}
+.subject {
+  width: 350px;
+  height: 116px;
+  font-size: 18px;
+  color: rgb(36,36,39);
+  font-family: "Museo Sans Cyrl";
+  text-align: right;
+}
+.subject ::after {
+    content: "";
+    display: block;
+    width: 430px;
+    height: 2px;
+    background-color: #232327;
+}
+
+.card {
+
+
+
+}
+.list--frontend {
+margin-top: 70px;
+}

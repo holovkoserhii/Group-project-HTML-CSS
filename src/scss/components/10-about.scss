@@ -1,0 +1,210 @@
+.about{
+    width: 320px;
+    margin: 0 auto;
+    padding: 0; 
+    background-image: url(../../img/Background16.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__title{
+        font-size: 14px;
+        line-height: 20px;
+        color: $dark-gray-color;
+        font-family: $section-title-font;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+    }
+    &__title-special{
+        color: $accent-text-color;
+    }
+    &__section-title-sub-little{
+        display: block;
+        width: 150px;
+        height: 2px;
+        background: $background-color;
+        margin-bottom: 22px;
+    }
+    &__item-title{
+        margin: 0 auto 14px;
+    }
+    &__item-desc-little{
+        font-size: 16px;
+        color: $dark-gray-color;
+        font-family: $main-text-font;
+        font-weight: bold;
+        line-height: 21px;
+        margin-bottom: 45px;
+    }
+    &__list-item{
+        line-height: 20px;
+        color: $dark-gray-color;
+        font-family: $main-text-font;
+        margin: 0 auto 28px;
+        font-size: 14px;
+        &::before {
+            display: block;
+            content: "";
+            width: 17px;
+            height: 17px;
+            border-radius: 8px;
+            background-color: $accent-text-color-before;
+            position: absolute;
+            left: 18px;
+        }
+    }
+    &__item-company{
+        font-size: 18px;
+        line-height: 24px;
+        color: $dark-gray-color;
+        font-family: $secondary-title-font;
+        font-weight: bold;
+        margin-bottom: 36px;
+        &-work{
+            font-size: 16px;
+            line-height: 24px;
+            color: $dark-gray-color;
+            font-family: $secondary-title-font;
+            margin: 26px 0 46px;
+        }
+    }
+    &__link-logo{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    &__title-achievements{
+        font-size: 16px;
+        line-height: 26px;
+        color: $dark-gray-color;
+        font-family: $section-title-font;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0 auto 48px;
+        padding-top: 65px;
+        &::before{
+            display: block;
+            content: "";
+            width: 150px;
+            height: 2px;
+            background: $background-color;
+            margin-bottom: 22px;
+        }
+    }
+    &__item-desc-achievements{
+        font-size: 14px;
+        line-height: 24px;
+        color: $dark-gray-color;
+        font-family: $main-text-font;
+        text-transform: none;
+        display: inline-block;
+        // float: left;
+    }
+    &__title-achievements-item{
+        font-size: 14px;
+        letter-spacing: 1px;
+        line-height: 24px;
+        color: $dark-gray-color;
+        font-family: $main-text-font;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    &__item{
+        margin: 0 auto;
+        width: 290px;
+        font-size: 14px;
+        line-height: 24px;
+        color: $dark-gray-color;
+        font-family: $main-text-font;
+        text-transform: none;
+        }
+    &__list{
+        margin: 0;
+        padding: 0;
+    }
+    &__img{
+        margin-right:15px;
+        padding-bottom: 15px;
+    }
+}
+.section-title-sub{
+    width: 290px;
+    height: 2px;
+    background-color: $background-color;
+    margin: 0 auto;
+}
+
+.wrapper{
+    &__about-background{
+    width: 290px;
+    margin: 0 auto;
+    padding: 0;
+    }
+    &__logo{
+        position: relative;
+        display: inline-block;
+        width: 142px;
+        height: 145px;
+        box-shadow: 0px 3px 7px hsla(0, 0%, 0%, 0.2);
+        background-color: $white-text-color;
+    }
+    &__achievements-background{
+        background-color: $white-text-color;
+    }
+    &__achievements{
+        display: block;
+        box-shadow: 0px 11px 10px rgba(0,0,0,0.11);
+        background-color: $white-text;
+        margin: 0 auto;
+        padding-left: 18px;
+        position: relative;
+        margin-bottom: 20px;
+    }
+}
+.section-title {
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-family: $section-title-font;
+    text-align: center;
+    &::before {
+        @extend %pseudo;
+  }
+}
+.list{
+    @extend %list;
+    position: relative;
+}
+.line{
+    margin-top: 50px;
+}
+.block__lorem{
+    display: inline-block;
+    width: 125px;
+    height: 28px;
+    background-color: $black-color;
+    font-size: 18px;
+    line-height: 26px;
+    color: $accent-text-color;
+    font-family: $secondary-title-font;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.united-nations, .awards, .education{
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: -20px;
+    
+}
+.united-nations{
+    background-image: url(../../html/img/united-nations-bgr.png);
+}
+.awards{
+    background-image: url(../../html/img/awards.png);
+
+}
+.education{
+    background-image: url(../../html/img/education.png);
+}

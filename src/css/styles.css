@@ -1,27 +1,21 @@
 /*
    Import partials below
 */
-
 /* pt-sans-regular - cyrillic */
-
 @font-face {
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 400;
-  src: local("PT Sans"), local("PTSans-Regular"), url("../fonts/pt-sans-v9-cyrillic-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/pt-sans-v9-cyrillic-regular.woff2") format("woff2"), url("../fonts/pt-sans-v9-cyrillic-regular.woff") format("woff"), url("../fonts/pt-sans-v9-cyrillic-regular.ttf") format("truetype");
-}
+  src: local("PT Sans"), local("PTSans-Regular"), url("../fonts/pt-sans-v9-cyrillic-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/pt-sans-v9-cyrillic-regular.woff2") format("woff2"), url("../fonts/pt-sans-v9-cyrillic-regular.woff") format("woff"), url("../fonts/pt-sans-v9-cyrillic-regular.ttf") format("truetype"); }
 
 /* pt-sans-700 - cyrillic */
-
 @font-face {
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 700;
-  src: local("PT Sans Bold"), local("PTSans-Bold"), url("../fonts/pt-sans-v9-cyrillic-700.eot?#iefix") format("embedded-opentype"), url("../fonts/pt-sans-v9-cyrillic-700.woff2") format("woff2"), url("../fonts/pt-sans-v9-cyrillic-700.woff") format("woff"), url("../fonts/pt-sans-v9-cyrillic-700.ttf") format("truetype");
-}
+  src: local("PT Sans Bold"), local("PTSans-Bold"), url("../fonts/pt-sans-v9-cyrillic-700.eot?#iefix") format("embedded-opentype"), url("../fonts/pt-sans-v9-cyrillic-700.woff2") format("woff2"), url("../fonts/pt-sans-v9-cyrillic-700.woff") format("woff"), url("../fonts/pt-sans-v9-cyrillic-700.ttf") format("truetype"); }
 
 /* montserrat-regular - latin_cyrillic */
-
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
@@ -29,11 +23,9 @@
   src: url("../fonts/montserrat-v12-latin_cyrillic-regular.eot");
   /* IE9 Compat Modes */
   src: local("Montserrat Regular"), local("Montserrat-Regular"), url("../fonts/montserrat-v12-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-v12-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/montserrat-v12-latin_cyrillic-regular.woff") format("woff"), url("../fonts/montserrat-v12-latin_cyrillic-regular.ttf") format("truetype"), url("../fonts/montserrat-v12-latin_cyrillic-regular.svg#Montserrat") format("svg");
-  /* Legacy iOS */
-}
+  /* Legacy iOS */ }
 
 /* montserrat-700 - latin_cyrillic */
-
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
@@ -41,11 +33,9 @@
   src: url("../fonts/montserrat-v12-latin_cyrillic-700.eot");
   /* IE9 Compat Modes */
   src: local("Montserrat Bold"), local("Montserrat-Bold"), url("../fonts/montserrat-v12-latin_cyrillic-700.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-v12-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/montserrat-v12-latin_cyrillic-700.woff") format("woff"), url("../fonts/montserrat-v12-latin_cyrillic-700.ttf") format("truetype"), url("../fonts/montserrat-v12-latin_cyrillic-700.svg#Montserrat") format("svg");
-  /* Legacy iOS */
-}
+  /* Legacy iOS */ }
 
 /* montserrat-900 - latin_cyrillic */
-
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
@@ -53,11 +43,9 @@
   src: url("../fonts/montserrat-v12-latin_cyrillic-900.eot");
   /* IE9 Compat Modes */
   src: local("Montserrat Black"), local("Montserrat-Black"), url("../fonts/montserrat-v12-latin_cyrillic-900.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-v12-latin_cyrillic-900.woff2") format("woff2"), url("../fonts/montserrat-v12-latin_cyrillic-900.woff") format("woff"), url("../fonts/montserrat-v12-latin_cyrillic-900.ttf") format("truetype"), url("../fonts/montserrat-v12-latin_cyrillic-900.svg#Montserrat") format("svg");
-  /* Legacy iOS */
-}
+  /* Legacy iOS */ }
 
 /* ubuntu-mono-regular - latin_cyrillic */
-
 @font-face {
   font-family: 'Ubuntu Mono';
   font-style: normal;
@@ -65,11 +53,9 @@
   src: url("../fonts/ubuntu-mono-v7-latin_cyrillic-regular.eot");
   /* IE9 Compat Modes */
   src: local("Ubuntu Mono"), local("UbuntuMono-Regular"), url("../fonts/ubuntu-mono-v7-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ubuntu-mono-v7-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/ubuntu-mono-v7-latin_cyrillic-regular.woff") format("woff"), url("../fonts/ubuntu-mono-v7-latin_cyrillic-regular.ttf") format("truetype"), url("../fonts/ubuntu-mono-v7-latin_cyrillic-regular.svg#UbuntuMono") format("svg");
-  /* Legacy iOS */
-}
+  /* Legacy iOS */ }
 
 /* ubuntu-mono-700 - latin_cyrillic */
-
 @font-face {
   font-family: 'Ubuntu Mono';
   font-style: normal;
@@ -77,11 +63,9 @@
   src: url("../fonts/ubuntu-mono-v7-latin_cyrillic-700.eot");
   /* IE9 Compat Modes */
   src: local("Ubuntu Mono Bold"), local("UbuntuMono-Bold"), url("../fonts/ubuntu-mono-v7-latin_cyrillic-700.eot?#iefix") format("embedded-opentype"), url("../fonts/ubuntu-mono-v7-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/ubuntu-mono-v7-latin_cyrillic-700.woff") format("woff"), url("../fonts/ubuntu-mono-v7-latin_cyrillic-700.ttf") format("truetype"), url("../fonts/ubuntu-mono-v7-latin_cyrillic-700.svg#UbuntuMono") format("svg");
-  /* Legacy iOS */
-}
+  /* Legacy iOS */ }
 
 /* open-sans-regular - latin_cyrillic */
-
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
@@ -89,11 +73,9 @@
   src: url("../fonts/open-sans-v15-latin_cyrillic-regular.eot");
   /* IE9 Compat Modes */
   src: local("Open Sans Regular"), local("OpenSans-Regular"), url("../fonts/open-sans-v15-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans-v15-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/open-sans-v15-latin_cyrillic-regular.woff") format("woff"), url("../fonts/open-sans-v15-latin_cyrillic-regular.ttf") format("truetype"), url("../fonts/open-sans-v15-latin_cyrillic-regular.svg#OpenSans") format("svg");
-  /* Legacy iOS */
-}
+  /* Legacy iOS */ }
 
 /* open-sans-700 - latin_cyrillic */
-
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
@@ -101,11 +83,9 @@
   src: url("../fonts/open-sans-v15-latin_cyrillic-700.eot");
   /* IE9 Compat Modes */
   src: local("Open Sans Bold"), local("OpenSans-Bold"), url("../fonts/open-sans-v15-latin_cyrillic-700.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans-v15-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/open-sans-v15-latin_cyrillic-700.woff") format("woff"), url("../fonts/open-sans-v15-latin_cyrillic-700.ttf") format("truetype"), url("../fonts/open-sans-v15-latin_cyrillic-700.svg#OpenSans") format("svg");
-  /* Legacy iOS */
-}
+  /* Legacy iOS */ }
 
 /* open-sans-800 - latin_cyrillic */
-
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
@@ -113,182 +93,144 @@
   src: url("../fonts/open-sans-v15-latin_cyrillic-800.eot");
   /* IE9 Compat Modes */
   src: local("Open Sans ExtraBold"), local("OpenSans-ExtraBold"), url("../fonts/open-sans-v15-latin_cyrillic-800.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans-v15-latin_cyrillic-800.woff2") format("woff2"), url("../fonts/open-sans-v15-latin_cyrillic-800.woff") format("woff"), url("../fonts/open-sans-v15-latin_cyrillic-800.ttf") format("truetype"), url("../fonts/open-sans-v15-latin_cyrillic-800.svg#OpenSans") format("svg");
-  /* Legacy iOS */
-}
+  /* Legacy iOS */ }
 
 /* Museo Sans Cyrl */
-
 @font-face {
   font-family: 'Museo Sans Cyrl';
   src: local("Museo Sans Cyrl 500"), local("MuseoSansCyrl-500"), url("Museosanscyrl500.woff2") format("woff2"), url("Museosanscyrl500.woff") format("woff"), url("Museosanscyrl500.ttf") format("truetype");
   font-weight: 500;
-  font-style: normal;
-}
+  font-style: normal; }
 
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
-
 /* Document
    ========================================================================== */
-
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-
 html {
   line-height: 1.15;
   /* 1 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Sections
      ========================================================================== */
-
 /**
    * Remove the margin in all browsers.
    */
-
 body {
-  margin: 0;
-}
+  margin: 0; }
 
 /**
    * Correct the font size and margin on `h1` elements within `section` and
    * `article` contexts in Chrome, Firefox, and Safari.
    */
-
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
-}
+  margin: 0.67em 0; }
 
 /* Grouping content
      ========================================================================== */
-
 /**
    * 1. Add the correct box sizing in Firefox.
    * 2. Show the overflow in Edge and IE.
    */
-
 hr {
   box-sizing: content-box;
   /* 1 */
   height: 0;
   /* 1 */
   overflow: visible;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
    * 1. Correct the inheritance and scaling of font size in all browsers.
    * 2. Correct the odd `em` font sizing in all browsers.
    */
-
 pre {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Text-level semantics
      ========================================================================== */
-
 /**
    * Remove the gray background on active links in IE 10.
    */
-
 a {
-  background-color: transparent;
-}
+  background-color: transparent; }
 
 /**
    * 1. Remove the bottom border in Chrome 57-
    * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
    */
-
 abbr[title] {
   border-bottom: none;
   /* 1 */
   text-decoration: underline;
   /* 2 */
-  -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
    * Add the correct font weight in Chrome, Edge, and Safari.
    */
-
 b,
 strong {
-  font-weight: bolder;
-}
+  font-weight: bolder; }
 
 /**
    * 1. Correct the inheritance and scaling of font size in all browsers.
    * 2. Correct the odd `em` font sizing in all browsers.
    */
-
 code,
 kbd,
 samp {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
    * Add the correct font size in all browsers.
    */
-
 small {
-  font-size: 80%;
-}
+  font-size: 80%; }
 
 /**
    * Prevent `sub` and `sup` elements from affecting the line height in
    * all browsers.
    */
-
 sub,
 sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 sub {
-  bottom: -0.25em;
-}
+  bottom: -0.25em; }
 
 sup {
-  top: -0.5em;
-}
+  top: -0.5em; }
 
 /* Embedded content
      ========================================================================== */
-
 /**
    * Remove the border on images inside links in IE 10.
    */
-
 img {
-  border-style: none;
-}
+  border-style: none; }
 
 /* Forms
      ========================================================================== */
-
 /**
    * 1. Change the font styles in all browsers.
    * 2. Remove the margin in Firefox and Safari.
    */
-
 button,
 input,
 optgroup,
@@ -301,72 +243,59 @@ textarea {
   line-height: 1.15;
   /* 1 */
   margin: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
    * Show the overflow in IE.
    * 1. Show the overflow in Edge.
    */
-
 button,
 input {
   /* 1 */
-  overflow: visible;
-}
+  overflow: visible; }
 
 /**
    * Remove the inheritance of text transform in Edge, Firefox, and IE.
    * 1. Remove the inheritance of text transform in Firefox.
    */
-
 button,
 select {
   /* 1 */
-  text-transform: none;
-}
+  text-transform: none; }
 
 /**
    * Correct the inability to style clickable types in iOS and Safari.
    */
-
 button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button;
-}
+  -webkit-appearance: button; }
 
 /**
    * Remove the inner border and padding in Firefox.
    */
-
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
   border-style: none;
-  padding: 0;
-}
+  padding: 0; }
 
 /**
    * Restore the focus styles unset by the previous rule.
    */
-
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
+  outline: 1px dotted ButtonText; }
 
 /**
    * Correct the padding in Firefox.
    */
-
 fieldset {
-  padding: 0.35em 0.75em 0.625em;
-}
+  padding: 0.35em 0.75em 0.625em; }
 
 /**
    * 1. Correct the text wrapping in Edge and IE.
@@ -374,7 +303,6 @@ fieldset {
    * 3. Remove the padding so developers are not caught out when they zero out
    *    `fieldset` elements in all browsers.
    */
-
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -387,135 +315,107 @@ legend {
   padding: 0;
   /* 3 */
   white-space: normal;
-  /* 1 */
-}
+  /* 1 */ }
 
 /**
    * Add the correct vertical alignment in Chrome, Firefox, and Opera.
    */
-
 progress {
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 /**
    * Remove the default vertical scrollbar in IE 10+.
    */
-
 textarea {
-  overflow: auto;
-}
+  overflow: auto; }
 
 /**
    * 1. Add the correct box sizing in IE 10.
    * 2. Remove the padding in IE 10.
    */
-
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
    * Correct the cursor style of increment and decrement buttons in Chrome.
    */
-
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
+  height: auto; }
 
 /**
    * 1. Correct the odd appearance in Chrome and Safari.
    * 2. Correct the outline style in Safari.
    */
-
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
    * Remove the inner padding in Chrome and Safari on macOS.
    */
-
 [type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
+  -webkit-appearance: none; }
 
 /**
    * 1. Correct the inability to style clickable types in iOS and Safari.
    * 2. Change font properties to `inherit` in Safari.
    */
-
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
   font: inherit;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Interactive
      ========================================================================== */
-
 /*
    * Add the correct display in Edge, IE 10+, and Firefox.
    */
-
 details {
-  display: block;
-}
+  display: block; }
 
 /*
    * Add the correct display in all browsers.
    */
-
 summary {
-  display: list-item;
-}
+  display: list-item; }
 
 /* Misc
      ========================================================================== */
-
 /**
    * Add the correct display in IE 10+.
    */
-
 template {
-  display: none;
-}
+  display: none; }
 
 /**
    * Add the correct display in IE 10.
    */
-
 [hidden] {
-  display: none;
-}
+  display: none; }
 
 html {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
-  font-size: 14px;
-}
+  font-size: 14px; }
 
 *,
 *::before,
 *::after {
   box-sizing: inherit;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
 .list {
   list-style-type: none;
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 .section-title::before {
   display: inline-block;
@@ -523,66 +423,12 @@ html {
   background-color: #00bcd4;
   width: 14px;
   height: 4px;
-  font-weight: 700;
-}
+  font-weight: 700; }
 
-.block {
+.img {
   display: block;
-}
-
-.text-bold {
-  font-weight: 700;
-}
-
-.accent-text {
-  color: #00bcd4;
-}
-
-.external-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-basis: 290px;
-}
-
-.button {
-  width: 322px;
-  height: 68px;
-  color: #fff;
-  font-family: "Ubuntu Mono", monospace;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 14px;
-  background: linear-gradient(to right, #ffb31b, #fb1c3c);
-}
-
-.section__title {
-  font-family: "PT Sans", sans-serif;
-  font-weight: 700;
-  font-size: 25px;
-  text-transform: uppercase;
-  color: #242427;
-  margin-bottom: 30px;
-}
-
-.section__title::before {
-  content: "";
-  display: inline-block;
-  width: 14px;
-  height: 4px;
-  background-color: #00bcd4;
-}
-
-.section__title-desc {
-  display: block;
-  width: 100%;
-  margin: 0 auto;
-  text-transform: uppercase;
-  font-family: "PT Sans", sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 24px;
-}
+  max-width: 100%;
+  height: auto; }
 
 .about {
   width: 320px;
@@ -590,159 +436,121 @@ html {
   padding: 0;
   background-image: url(../../img/Background16.png);
   background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.about__title {
-  font-size: 14px;
-  line-height: 20px;
-  color: #242427;
-  font-family: "Museo Sans Cyrl";
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 50px;
-}
-
-.about__title-special {
-  color: #00bcd4;
-}
-
-.about__section-title-sub-little {
-  display: block;
-  width: 150px;
-  height: 2px;
-  background: #232327;
-  margin-bottom: 22px;
-}
-
-.about__item-title {
-  margin: 0 auto 14px;
-}
-
-.about__item-desc-little {
-  font-size: 16px;
-  color: #242427;
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold;
-  line-height: 21px;
-  margin-bottom: 45px;
-}
-
-.about__list-item {
-  line-height: 20px;
-  color: #242427;
-  font-family: "Open Sans", sans-serif;
-  margin: 0 auto 28px;
-  font-size: 14px;
-}
-
-.about__list-item::before {
-  display: block;
-  content: "";
-  width: 17px;
-  height: 17px;
-  border-radius: 8px;
-  background-color: #00bbd3;
-  position: absolute;
-  left: 18px;
-}
-
-.about__item-company {
-  font-size: 18px;
-  line-height: 24px;
-  color: #242427;
-  font-family: "Ubuntu Mono", monospace;
-  font-weight: bold;
-  margin-bottom: 36px;
-}
-
-.about__item-company-work {
-  font-size: 16px;
-  line-height: 24px;
-  color: #242427;
-  font-family: "Ubuntu Mono", monospace;
-  margin: 26px 0 46px;
-}
-
-.about__link-logo {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-.about__title-achievements {
-  font-size: 16px;
-  line-height: 26px;
-  color: #242427;
-  font-family: "Museo Sans Cyrl";
-  text-align: center;
-  text-transform: uppercase;
-  margin: 0 auto 48px;
-  padding-top: 65px;
-}
-
-.about__title-achievements::before {
-  display: block;
-  content: "";
-  width: 150px;
-  height: 2px;
-  background: #232327;
-  margin-bottom: 22px;
-}
-
-.about__item-desc-achievements {
-  font-size: 14px;
-  line-height: 24px;
-  color: #242427;
-  font-family: "Open Sans", sans-serif;
-  text-transform: none;
-  display: inline-block;
-}
-
-.about__title-achievements-item {
-  font-size: 14px;
-  letter-spacing: 1px;
-  line-height: 24px;
-  color: #242427;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 800;
-  text-transform: uppercase;
-}
-
-.about__item {
-  margin: 0 auto;
-  width: 290px;
-  font-size: 14px;
-  line-height: 24px;
-  color: #242427;
-  font-family: "Open Sans", sans-serif;
-  text-transform: none;
-}
-
-.about__list {
-  margin: 0;
-  padding: 0;
-}
-
-.about__img {
-  margin-right: 15px;
-  padding-bottom: 15px;
-}
+  background-size: cover; }
+  .about__title {
+    font-size: 14px;
+    line-height: 20px;
+    color: #242427;
+    font-family: "Museo Sans Cyrl";
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px; }
+  .about__title-special {
+    color: #00bcd4; }
+  .about__section-title-sub-little {
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: #232327;
+    margin-bottom: 22px; }
+  .about__item-title {
+    margin: 0 auto 14px; }
+  .about__item-desc-little {
+    font-size: 16px;
+    color: #242427;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    line-height: 21px;
+    margin-bottom: 45px; }
+  .about__list-item {
+    line-height: 20px;
+    color: #242427;
+    font-family: "Open Sans", sans-serif;
+    margin: 0 auto 28px;
+    font-size: 14px; }
+    .about__list-item::before {
+      display: block;
+      content: "";
+      width: 17px;
+      height: 17px;
+      border-radius: 8px;
+      background-color: #00bbd3;
+      position: absolute;
+      left: 18px; }
+  .about__item-company {
+    font-size: 18px;
+    line-height: 24px;
+    color: #242427;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: bold;
+    margin-bottom: 36px; }
+    .about__item-company-work {
+      font-size: 16px;
+      line-height: 24px;
+      color: #242427;
+      font-family: "Ubuntu Mono", monospace;
+      margin: 26px 0 46px; }
+  .about__link-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .about__title-achievements {
+    font-size: 16px;
+    line-height: 26px;
+    color: #242427;
+    font-family: "Museo Sans Cyrl";
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto 48px;
+    padding-top: 65px; }
+    .about__title-achievements::before {
+      display: block;
+      content: "";
+      width: 150px;
+      height: 2px;
+      background: #232327;
+      margin-bottom: 22px; }
+  .about__item-desc-achievements {
+    font-size: 14px;
+    line-height: 24px;
+    color: #242427;
+    font-family: "Open Sans", sans-serif;
+    text-transform: none;
+    display: inline-block; }
+  .about__title-achievements-item {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #242427;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase; }
+  .about__item {
+    margin: 0 auto;
+    width: 290px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #242427;
+    font-family: "Open Sans", sans-serif;
+    text-transform: none; }
+  .about__list {
+    margin: 0;
+    padding: 0; }
+  .about__img {
+    margin-right: 15px;
+    padding-bottom: 15px; }
 
 .section-title-sub {
   width: 290px;
   height: 2px;
   background-color: #232327;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
 .wrapper__about-background {
   width: 290px;
   margin: 0 auto;
-  padding: 0;
-}
+  padding: 0; }
 
 .wrapper__logo {
   position: relative;
@@ -750,12 +558,10 @@ html {
   width: 142px;
   height: 145px;
   box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2);
-  background-color: #ffffff;
-}
+  background-color: #ffffff; }
 
 .wrapper__achievements-background {
-  background-color: #ffffff;
-}
+  background-color: #ffffff; }
 
 .wrapper__achievements {
   display: block;
@@ -764,24 +570,20 @@ html {
   margin: 0 auto;
   padding-left: 18px;
   position: relative;
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
 
 .section-title {
   font-size: 25px;
   text-transform: uppercase;
   line-height: 1.2;
   font-family: "Museo Sans Cyrl";
-  text-align: center;
-}
+  text-align: center; }
 
 .list {
-  position: relative;
-}
+  position: relative; }
 
 .line {
-  margin-top: 50px;
-}
+  margin-top: 50px; }
 
 .block__lorem {
   display: inline-block;
@@ -794,44 +596,34 @@ html {
   font-family: "Ubuntu Mono", monospace;
   font-weight: bold;
   text-align: center;
-  margin: 20px 0;
-}
+  margin: 20px 0; }
 
-.united-nations,
-.awards,
-.education {
+.united-nations, .awards, .education {
   background-repeat: no-repeat;
   background-position-y: bottom;
-  background-position-x: -20px;
-}
+  background-position-x: -20px; }
 
 .united-nations {
-  background-image: url(../../html/img/united-nations-bgr.png);
-}
+  background-image: url(../../html/img/united-nations-bgr.png); }
 
 .awards {
-  background-image: url(../../html/img/awards.png);
-}
+  background-image: url(../../html/img/awards.png); }
 
 .education {
-  background-image: url(../../html/img/education.png);
-}
+  background-image: url(../../html/img/education.png); }
 
 .wrapper__teacherst-background {
   width: 290px;
   margin: 0 auto;
-  padding: 0;
-}
+  padding: 0; }
 
 .wrapper__item-background {
   display: block;
   width: 290px;
-  background-color: #f0f0f0;
-}
+  background-color: #f0f0f0; }
 
 .teachers__list {
-  position: relative;
-}
+  position: relative; }
 
 .teachers {
   width: 320px;
@@ -839,143 +631,105 @@ html {
   padding: 0;
   background-image: url(../../img/Background16.png);
   background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.teachers__title {
-  font-size: 14px;
-  line-height: 20px;
-  color: #242427;
-  font-family: "Museo Sans Cyrl";
-  text-align: center;
-  text-transform: uppercase;
-  padding: 22px 0;
-}
-
-.teachers__title--desc {
-  margin-bottom: 50px;
-}
-
-.teachers__item-title {
-  margin: 0 auto 14px;
-}
-
-.teachers__section-title-sub-little {
-  display: block;
-  width: 150px;
-  height: 2px;
-  background: #232327;
-  margin-bottom: 22px;
-}
-
-.teachers__item-desc {
-  font-size: 14px;
-  line-height: 24px;
-  color: #242427;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 800;
-  margin-bottom: 34px;
-}
-
-.teachers__section-line-little {
-  display: block;
-  width: 290px;
-  height: 36px;
-  position: relative;
-}
-
-.teachers__list-item {
-  display: block;
-  width: 290px;
-  height: auto;
-  box-shadow: 0px 32px 35px rgba(0, 0, 0, 0.19);
-  background-color: #ffffff;
-  position: relative;
-}
-
-.teachers__list-item-developer,
-.teachers__list-name,
-.teachers__list-name-developer,
-.teachers__list-item-skills {
-  color: #242427;
-  font-family: "Ubuntu Mono", monospace;
-  font-weight: bold;
-}
-
-.teachers__list-item-developer {
-  display: inline-block;
-  font-size: 24px;
-  line-height: 36px;
-  position: absolute;
-  right: 0;
-}
-
-.teachers__list-item-developer::before {
-  display: inline-block;
-  content: "";
-  width: 100px;
-  height: 2px;
-  background-color: #29292b;
-}
-
-.teachers__item-background {
-  display: block;
-  width: 290px;
-  background-color: #dfdfdf;
-}
-
-.teachers__list-name {
-  font-size: 20px;
-  line-height: 24px;
-  display: inline-block;
-  width: 142px;
-  margin: 15px 0 0 18px;
-}
-
-.teachers__list-name-developer {
-  font-size: 14px;
-  line-height: 18px;
-  display: inline-block;
-  width: 142px;
-  margin: 15px 0 0 18px;
-}
-
-.teachers__list-name-developer::before {
-  display: inline-block;
-  content: "";
-  width: 60px;
-  height: 2px;
-  background-color: #00bbd3;
-  position: absolute;
-  top: 70px;
-}
-
-.teachers__summary {
-  display: inline-block;
-  font-size: 14px;
-  line-height: 20px;
-  color: #242427;
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold;
-  margin: 0 0 22px 15px;
-}
-
-.teachers__list-item-skills {
-  font-size: 13px;
-  line-height: 18px;
-  text-transform: uppercase;
-  margin-left: 15px;
-  padding-bottom: 26px;
-}
-
-.teachers__button {
-  font-size: 14px;
-  line-height: 26px;
-  color: #ffffff;
-  font-family: "Museo Sans Cyrl";
-  box-shadow: 0px 1px 1px rgba(28, 28, 30, 0.32);
-  margin-bottom: 64px;
-}
+  background-size: cover; }
+  .teachers__title {
+    font-size: 14px;
+    line-height: 20px;
+    color: #242427;
+    font-family: "Museo Sans Cyrl";
+    text-align: center;
+    text-transform: uppercase;
+    padding: 22px 0; }
+  .teachers__title--desc {
+    margin-bottom: 50px; }
+  .teachers__item-title {
+    margin: 0 auto 14px; }
+  .teacherss__section-title-sub-little {
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: #232327;
+    margin-bottom: 22px; }
+  .teachers__item-desc {
+    font-size: 14px;
+    line-height: 24px;
+    color: #242427;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    margin-bottom: 34px; }
+  .teachers__section-line-little {
+    display: block;
+    width: 290px;
+    height: 36px;
+    position: relative; }
+  .teachers__list-item {
+    display: block;
+    width: 290px;
+    height: auto;
+    box-shadow: 0px 32px 35px rgba(0, 0, 0, 0.19);
+    background-color: #ffffff;
+    position: relative; }
+  .teachers__list-item-developer, .teachers__list-name, .teachers__list-name-developer, .teachers__list-item-skills {
+    color: #242427;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: bold; }
+  .teachers__list-item-developer {
+    display: inline-block;
+    font-size: 24px;
+    line-height: 36px;
+    position: absolute;
+    right: 0; }
+    .teachers__list-item-developer::before {
+      display: inline-block;
+      content: "";
+      width: 100px;
+      height: 2px;
+      background-color: #29292b; }
+  .teachers__item-background {
+    display: block;
+    width: 290px;
+    background-color: #dfdfdf; }
+  .teachers__list-name {
+    font-size: 20px;
+    line-height: 24px;
+    display: inline-block;
+    width: 142px;
+    margin: 15px 0 0 18px; }
+  .teachers__list-name-developer {
+    font-size: 14px;
+    line-height: 18px;
+    display: inline-block;
+    width: 142px;
+    margin: 15px 0 0 18px; }
+    .teachers__list-name-developer::before {
+      display: inline-block;
+      content: "";
+      width: 60px;
+      height: 2px;
+      background-color: #00bbd3;
+      position: absolute;
+      top: 70px; }
+  .teachers__summary {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    color: #242427;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    margin: 0 0 22px 15px; }
+  .teachers__list-item-skills {
+    font-size: 13px;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin-left: 15px;
+    padding-bottom: 26px; }
+  .teachers__button {
+    font-size: 14px;
+    line-height: 26px;
+    color: #ffffff;
+    font-family: "Museo Sans Cyrl";
+    box-shadow: 0px 1px 1px rgba(28, 28, 30, 0.32);
+    margin-bottom: 64px; }
 
 .button {
   width: 290px;
@@ -983,230 +737,4 @@ html {
   border-radius: 5px;
   box-shadow: 0px 12px 20px rgba(28, 28, 30, 0.21);
   background-image: linear-gradient(90deg, #ffc517 0%, #fb0640 100%);
-  cursor: pointer;
-}
-
-.differences__item-title {
-  font-size: 20px;
-  font-family: "UbuntuMono";
-  color: #242427;
-  font-weight: bold;
-  line-height: 1.2;
-}
-
-.differences__item-title::after {
-  display: block;
-  content: "";
-  background: #00bcd4;
-  margin-top: 10px;
-  width: 80px;
-  height: 2px;
-}
-
-.differences__item-desc {
-  font-size: 14px;
-  font-family: "OpenSans";
-  color: #242427;
-  line-height: 1.714;
-}
-
-.gains__special {
-  font-size: 16px;
-  font-family: "OpenSans";
-  color: #242427;
-  line-height: 1.5;
-}
-
-.gains__special::before {
-  display: block;
-  content: "";
-  background: #00bcd4;
-  width: 250px;
-  height: 2px;
-  margin: 0 auto;
-}
-
-.hint__text {
-  font-size: 14px;
-  font-family: "OpenSans";
-  color: #242427;
-  line-height: 1.714;
-}
-
-.future {
-  margin: auto;
-}
-
-.caption {
-  width: 610px;
-  height: 268px;
-  font-size: 42px;
-  color: #242427;
-  font-family: "Museo Sans Cyrl";
-  margin: auto;
-}
-
-.list {
-  margin: auto;
-}
-
-.web-title {
-  width: 116px;
-}
-
-.titles::before {
-  background: url(../img/Elips.png) no-repeat;
-  content: '';
-  position: absolute;
-  background-position-x: center;
-  background-position-y: center;
-  background-repeat: no-repeat;
-  width: 63px;
-  height: 63px;
-  padding-left: 13px;
-  padding-top: 13px;
-}
-
-.frontend--title::before {
-  content: url(../img/code.png);
-}
-
-.backend--title::before {
-  content: url(../img/codings.png);
-}
-
-.fullstack--title::before {
-  content: url(../img/coding.png);
-}
-
-.web-title::before {
-  content: url(../img/wordpress.png);
-}
-
-.html-title::before {
-  content: url(../img/website.png);
-}
-
-.subject {
-  width: 350px;
-  height: 116px;
-  font-size: 18px;
-  color: #242427;
-  font-family: "Museo Sans Cyrl";
-  text-align: right;
-}
-
-.subject ::after {
-  content: "";
-  display: block;
-  width: 430px;
-  height: 2px;
-  background-color: #232327;
-}
-
-.card {
-  width: 272px;
-  height: 269px;
-  margin: auto;
-}
-
-.list--frontend {
-  margin-top: 70px;
-}
-
-@media (min-width: 748px) {
-  .external-wrapper {
-    flex-basis: 690px;
-  }
-
-  .section__title {
-    font-size: 30px;
-    line-height: 40px;
-  }
-
-  .section__title::before {
-    content: "";
-    display: inline-block;
-    width: 18px;
-    height: 4px;
-    background-color: #00bcd4;
-  }
-
-  .accent-block {
-    display: inline-block;
-    width: 85px;
-    height: 24px;
-    text-align: center;
-    background-color: #242427;
-    color: #00bcd5;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-  }
-
-  .section__title-desc_top {
-    display: block;
-    text-align: right;
-  }
-
-  .section__title-desc_bottom {
-    display: block;
-    text-align: right;
-  }
-
-  .section__title-desc_top::after {
-    content: "";
-    display: block;
-    width: 320px;
-    height: 2px;
-    background-color: #242727;
-  }
-}
-
-@media (min-width: 1900px) {
-  .section__title {
-    font-size: 42px;
-    line-height: 50px;
-  }
-
-  .section__title-desc {
-    font-size: 18px;
-    line-height: 30px;
-  }
-
-  .section__title-desc_top::after {
-    content: "";
-    display: block;
-    width: 430px;
-    height: 2px;
-    background-color: #242727;
-  }
-
-  .accent-block {
-    display: inline-block;
-    width: 112px;
-    height: 26px;
-  }
-}
-
-@media (min-width: 1920px) {
-  .external-wrapper {
-    flex-basis: 1760px;
-  }
-}
-
-@media (max-width: 747px) {
-  .section__title::after {
-    content: "";
-    display: block;
-    width: 150px;
-    height: 2px;
-    background-color: #242427;
-    margin: 0 auto;
-    margin-top: 12px;
-    margin-bottom: 20px;
-  }
-
-  .accent-block {
-    background-color: transparent;
-  }
-}
+  cursor: pointer; }
