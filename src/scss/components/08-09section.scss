@@ -11,13 +11,14 @@
 }
 .list {
   margin: auto;
+}
+.item__text {
+  padding-left: 100px;
 
 }
 .titles {
-width: 116px;
-display: inline:
-text-align: right;
-margin: auto;
+  width: 100%;
+
 }
 .titles::before {
   background: url(../img/Elips.png) no-repeat;
@@ -35,16 +36,16 @@ margin: auto;
   content:url(../img/code.png);
 }
 .backend--title::before {
-content:url(../img/codings.png);
+  content:url(../img/codings.png);
 }
 .fullstack--title::before {
-content:url(../img/coding.png);
+  content:url(../img/coding.png);
 }
 .web-title::before {
-content:url(../img/wordpress.png);
+  content:url(../img/wordpress.png);
 }
 .html-title::before {
-content:url(../img/website.png);
+  content:url(../img/website.png);
 }
 .subject {
   width: 350px;
@@ -55,18 +56,55 @@ content:url(../img/website.png);
   text-align: right;
 }
 .subject ::after {
-    content: "";
-    display: block;
-    width: 430px;
-    height: 2px;
-    background-color: #232327;
+  content: "";
+  display: block;
+  width: 430px;
+  height: 2px;
+  background-color: #232327;
 }
-
+.frontend--desc {
+  width: 160px;
+}
+.fullstack-desc {
+  width: 198px;
+}
+.backend--desc {
+  width: 224px;
+}
+.desc {
+  margin-top: 48px;
+}
+.salary {
+  margin-top: 15px;
+}
+.job {
+  font-size: 18px;
+  line-height: 20px;
+  color: rgb(99,99,99);
+  font-family: "Ubuntu Mono";
+  margin-top: 20px;
+}
+.list--description {
+  width: 563px;
+  height: 269px;
+  border: solid 2px black;
+  padding-top: 40px;
+ }
+.description--title {
+  width: 416px;
+  font-size: 20px;
+  font-family: $section-title-font;
+  margin: auto;
+}
+.description--button {
+  margin-top: 70px;
+}
 .card {
-
-
-
+  width: 270px;
+  border: solid 2px black;
+  margin: 15px;
+  padding: 10px;
 }
 .list--frontend {
-margin-top: 70px;
+  margin-top: 70px;
 }

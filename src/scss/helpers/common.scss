@@ -8,22 +8,76 @@
   color: $accent-text-color;
 }
 
+.page-section {
+  margin-bottom: 40px;
+}
+
+//hint: general outlook, its title, text and conclusion
+.hint {
+  display: block;
+  border: 2px solid #242427;
+  width: 246px; 
+  
+}
+
+.hint__title {
+  font-size: 14px;
+  font-family: "OpenSans", sans-serif;
+  color: #242427;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.714;
+
+  // &::before {
+  //   display: block;
+  //   content: "";
+  //   background: #242427;
+  //   height: 2px;
+  // }
+}
+
+.hint__text {
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: #242427;
+  line-height: 1.714;
+}
+
+.hint__conclusion {
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: #242427;
+  font-weight: bold;
+  line-height: 1.714;
+}
+
 .external-wrapper {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
   justify-content: center;
-  flex-basis: 290px;
+  width: 290px;
 }
 
 @media (min-width: 748px) {
   .external-wrapper {
-    flex-basis: 690px;
+    width: 690px;
+  }
+  
+  .hint {
+    border: none;
+    background-image: url('/img/hint-background.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 624px;
+    padding: 40px;
+    margin-bottom: 30px;
   }
 }
 
 @media (min-width: 1920px) {
   .external-wrapper {
-    flex-basis: 1760px;
+    width: 1760px;
   }
 }
 

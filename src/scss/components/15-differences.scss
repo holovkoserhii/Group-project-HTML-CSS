@@ -1,3 +1,13 @@
+.page-section--differences {
+  margin-bottom: 140px;
+}
+
+@media (min-width: 0px) {
+  .section__title--differences::after {
+    height: 0px;
+  }
+}
+
 .differences__item-title {
   font-size: 20px;
   font-family: "UbuntuMono";
@@ -20,4 +30,92 @@
   font-family: "OpenSans";
   color: #242427;
   line-height: 1.714;
+  margin-bottom: 10px;
+}
+
+.differences__item-desc li::before {
+  display: inline-block;
+  content: "";
+  width: 10px;
+  height: 10px;
+  margin-right: 12px;
+  background: #000000;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.hint--differences {
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  width: 290px;
+}
+
+.differences__wrapper {
+  background: $white-text-color;
+}
+
+@media (min-width: 748px) {
+  .differences__item-title::after {
+    margin-left: 0px;
+  }
+
+  .hint__title--differences {
+    margin-bottom: 10px;
+  }
+
+  .differences__wrapper {
+    // background-color: $accent-text-color;
+    width: 572px;
+    // height: 564px;
+    position: relative;
+    // background-image: url('/img/html15-20 fig 01.png');
+    // background-size: 50%;
+    // background-repeat: no-repeat;
+  }
+
+  .hint--differences {
+    width: 522px;
+    &::after {
+      position: absolute;
+      display: block;
+      content: "";
+      width: 300px;
+      height: 300px;
+      z-index: -1;
+      background: $accent-text-color;
+      bottom: -20px;
+      left: -20px;
+    }
+  }
+}
+
+@media (min-width: 1920px) {
+  .hint__title--differences::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 300px;
+    height: 300px;
+    z-index: -1;
+    background: $accent-text-color;
+    right: -20px;
+    top: 10px;
+  }
+
+  .section__title--differences::after {
+    position: absolute;
+    display: block;
+    content: "";
+    top: 10px;
+    left: -100px;
+    width: 50%;
+    height: 50%;
+    z-index: -1;
+    background-image: url("/img/html15-20 fig 01.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
 }
