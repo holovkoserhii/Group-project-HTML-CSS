@@ -417,13 +417,18 @@ html {
   margin: 0;
   padding: 0; }
 
-.section-title::before {
-  display: inline-block;
-  content: "";
-  background-color: #00bcd4;
-  width: 14px;
-  height: 4px;
-  font-weight: 700; }
+.section-title {
+  font-size: 25px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center; }
+  .section-title::before {
+    display: inline-block;
+    content: "";
+    background-color: #00bcd4;
+    width: 14px;
+    height: 4px;
+    font-weight: 700; }
 
 .img {
   display: block;
@@ -534,9 +539,6 @@ html {
     color: #242427;
     font-family: "Open Sans", sans-serif;
     text-transform: none; }
-  .about__list {
-    margin: 0;
-    padding: 0; }
   .about__img {
     margin-right: 15px;
     padding-bottom: 15px; }
@@ -571,13 +573,6 @@ html {
   padding-left: 18px;
   position: relative;
   margin-bottom: 20px; }
-
-.section-title {
-  font-size: 25px;
-  text-transform: uppercase;
-  line-height: 1.2;
-  font-family: "Museo Sans Cyrl";
-  text-align: center; }
 
 .list {
   position: relative; }
@@ -622,9 +617,6 @@ html {
   width: 290px;
   background-color: #f0f0f0; }
 
-.teachers__list {
-  position: relative; }
-
 .teachers {
   width: 320px;
   margin: 0 auto;
@@ -644,7 +636,7 @@ html {
     margin-bottom: 50px; }
   .teachers__item-title {
     margin: 0 auto 14px; }
-  .teacherss__section-title-sub-little {
+  .teachers__section-title-sub-little {
     display: block;
     width: 150px;
     height: 2px;
@@ -738,3 +730,71 @@ html {
   box-shadow: 0px 12px 20px rgba(28, 28, 30, 0.21);
   background-image: linear-gradient(90deg, #ffc517 0%, #fb0640 100%);
   cursor: pointer; }
+
+.wrapper__video-background {
+  width: 290px;
+  margin: 0 auto;
+  padding: 0; }
+
+.video {
+  width: 320px;
+  margin: 0 auto;
+  padding: 0; }
+  .video__list {
+    margin: 0 0 44px; }
+  .video__item-title {
+    margin: 0 auto 14px; }
+  .video__title {
+    font-size: 14px;
+    line-height: 20px;
+    color: #242427;
+    font-family: "Museo Sans Cyrl";
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 22px; }
+  .video__section-title-sub-little {
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: #232327;
+    margin-bottom: 22px; }
+  .video__list-item {
+    font-size: 14px;
+    line-height: 20px;
+    color: #242427;
+    font-family: "Open Sans";
+    margin: 0 auto 28px; }
+    .video__list-item::before {
+      display: block;
+      content: "";
+      width: 25px;
+      height: 25px;
+      border-radius: 13px;
+      box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.21);
+      background-color: #00bbd3;
+      border: 3px solid #ffffff;
+      position: absolute;
+      left: 0; }
+  .video__review {
+    font-size: 18px;
+    line-height: 26px;
+    color: #242427;
+    font-family: "Ubuntu Mono";
+    font-weight: bold;
+    margin-bottom: 70px;
+    position: relative; }
+    .video__review::after {
+      display: block;
+      content: "";
+      width: 61px;
+      height: 51px;
+      background-image: url(../html/img/brackets.svg);
+      position: absolute;
+      right: 46px;
+      bottom: 0; }
+  .video__review-video {
+    width: 290px;
+    height: 224px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.19);
+    background-color: #232327;
+    margin-bottom: 15px; }

@@ -118,10 +118,10 @@
         font-family: $main-text-font;
         text-transform: none;
         }
-    &__list{
-        margin: 0;
-        padding: 0;
-    }
+    // &__list{
+    //     margin: 0;
+    //     padding: 0;
+    // }
     &__img{
         margin-right:15px;
         padding-bottom: 15px;
@@ -161,16 +161,7 @@
         margin-bottom: 20px;
     }
 }
-.section-title {
-    font-size: 25px;
-    text-transform: uppercase;
-    line-height: 1.2;
-    font-family: $section-title-font;
-    text-align: center;
-    &::before {
-        @extend %pseudo;
-  }
-}
+
 .list{
     @extend %list;
     position: relative;

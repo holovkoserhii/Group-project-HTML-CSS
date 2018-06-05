@@ -1,0 +1,67 @@
+.wrapper__video-background {
+  width: 290px;
+  margin: 0 auto;
+  padding: 0; }
+
+.video {
+  width: 320px;
+  margin: 0 auto;
+  padding: 0; }
+  .video__list {
+    margin: 0 0 44px; }
+  .video__item-title {
+    margin: 0 auto 14px; }
+  .video__title {
+    font-size: 14px;
+    line-height: 20px;
+    color: #242427;
+    font-family: "Museo Sans Cyrl";
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 22px; }
+  .video__section-title-sub-little {
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: #232327;
+    margin-bottom: 22px; }
+  .video__list-item {
+    font-size: 14px;
+    line-height: 20px;
+    color: #242427;
+    font-family: "Open Sans";
+    margin: 0 auto 28px; }
+    .video__list-item::before {
+      display: block;
+      content: "";
+      width: 25px;
+      height: 25px;
+      border-radius: 13px;
+      box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.21);
+      background-color: #00bbd3;
+      border: 3px solid #ffffff;
+      position: absolute;
+      left: 0; }
+  .video__review {
+    font-size: 18px;
+    line-height: 26px;
+    color: #242427;
+    font-family: "Ubuntu Mono";
+    font-weight: bold;
+    margin-bottom: 70px;
+    position: relative; }
+    .video__review::after {
+      display: block;
+      content: "";
+      width: 61px;
+      height: 51px;
+      background-image: url(../html/img/brackets.png);
+      position: absolute;
+      right: 46px;
+      bottom: 0; }
+  .video__review-video {
+    width: 290px;
+    height: 224px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.19);
+    background-color: #232327;
+    margin-bottom: 15px; }
