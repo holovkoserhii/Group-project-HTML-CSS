@@ -6,13 +6,7 @@
 @import "helpers/variables";
 @import "base";
 @import "helpers/placeholders";
-// @import "helpers/common";
-
-// @import "helpers/mixins";
-// @import "helpers/extras";
-
-
-
+@import "helpers/common";
 
 // //Components
 @import "components/section-title";
@@ -22,9 +16,8 @@
 @import "components/12-video";
 // @import "components/buttons";
 // @import "components/hint";
-// @import "components/section-title";
-// @import "components/15-differences";
-// @import "components/16-gains"
+@import "components/15-differences";
+@import "components/16-gains"
 // @import "helpers/mixins";
 // @import "helpers/extras";
 
