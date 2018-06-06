@@ -417,23 +417,163 @@ html {
   margin: 0;
   padding: 0; }
 
-.section-title {
+.block {
+  display: block; }
+
+.text-bold {
+  font-weight: 700; }
+
+.accent-text {
+  color: #00bcd4; }
+
+.page-section {
+  margin-bottom: 40px; }
+
+.hint {
+  display: block;
+  border: 2px solid #242427;
+  width: 246px; }
+
+.hint__title {
+  font-size: 14px;
+  font-family: "OpenSans", sans-serif;
+  color: #242427;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.714; }
+
+.hint__text {
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: #242427;
+  line-height: 1.714; }
+
+.hint__conclusion {
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: #242427;
+  font-weight: bold;
+  line-height: 1.714; }
+
+.external-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 290px; }
+
+@media (min-width: 748px) {
+  .external-wrapper {
+    width: 690px; }
+  .hint {
+    border: none;
+    background-image: url("/img/hint-background.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 624px;
+    padding: 40px;
+    margin-bottom: 30px; } }
+
+@media (min-width: 1920px) {
+  .external-wrapper {
+    width: 1760px; } }
+
+.button {
+  width: 322px;
+  height: 68px;
+  color: #fff;
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  background: linear-gradient(to right, #ffb31b, #fb1c3c); }
+
+.section__title {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
   font-size: 25px;
   text-transform: uppercase;
-  line-height: 1.2;
-  text-align: center; }
-  .section-title::before {
-    display: inline-block;
+  color: #242427;
+  margin-bottom: 30px; }
+  .section__title::before {
     content: "";
-    background-color: #00bcd4;
+    display: inline-block;
     width: 14px;
     height: 4px;
-    font-weight: 700; }
+    background-color: #00bcd4; }
 
-.img {
+.section__title-desc {
   display: block;
-  max-width: 100%;
-  height: auto; }
+  width: 100%;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px; }
+
+@media (max-width: 747px) {
+  .section__title::after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background-color: #242427;
+    margin: 0 auto;
+    margin-top: 12px;
+    margin-bottom: 20px; }
+  .accent-block {
+    background-color: transparent; } }
+
+@media (min-width: 748px) {
+  .section__title {
+    font-size: 30px;
+    line-height: 40px; }
+    .section__title::before {
+      content: "";
+      display: inline-block;
+      width: 18px;
+      height: 4px;
+      background-color: #00bcd4; }
+  .accent-block {
+    display: inline-block;
+    width: 85px;
+    height: 24px;
+    text-align: center;
+    background-color: #242427;
+    color: #00bcd5;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700; }
+  .section__title-desc_top {
+    display: block;
+    text-align: right; }
+  .section__title-desc_bottom {
+    display: block;
+    text-align: right; }
+  .section__title-desc_top::after {
+    content: "";
+    display: block;
+    width: 320px;
+    height: 2px;
+    background-color: #242727; } }
+
+@media (min-width: 1900px) {
+  .section__title {
+    font-size: 42px;
+    line-height: 50px; }
+  .section__title-desc {
+    font-size: 18px;
+    line-height: 30px; }
+  .section__title-desc_top::after {
+    content: "";
+    display: block;
+    width: 430px;
+    height: 2px;
+    background-color: #242727; }
+  .accent-block {
+    display: inline-block;
+    width: 112px;
+    height: 26px; } }
 
 .about {
   width: 320px;
@@ -788,7 +928,7 @@ html {
       content: "";
       width: 61px;
       height: 51px;
-      background-image: url(../html/img/brackets.svg);
+      background-image: url(../html/img/brackets.png);
       position: absolute;
       right: 46px;
       bottom: 0; }
@@ -798,3 +938,116 @@ html {
     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.19);
     background-color: #232327;
     margin-bottom: 15px; }
+
+.page-section--differences {
+  margin-bottom: 140px; }
+
+@media (min-width: 0px) {
+  .section__title--differences::after {
+    height: 0px; } }
+
+.differences__item-title {
+  font-size: 20px;
+  font-family: "UbuntuMono";
+  color: #242427;
+  font-weight: bold;
+  line-height: 1.2; }
+  .differences__item-title::after {
+    display: block;
+    content: "";
+    background: #00bcd4;
+    margin-top: 10px;
+    width: 80px;
+    height: 2px; }
+
+.differences__item-desc {
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: #242427;
+  line-height: 1.714;
+  margin-bottom: 10px; }
+
+.differences__item-desc li::before {
+  display: inline-block;
+  content: "";
+  width: 10px;
+  height: 10px;
+  margin-right: 12px;
+  background: #000000;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; }
+
+.hint--differences {
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  width: 290px; }
+
+.differences__wrapper {
+  background: #ffffff; }
+
+@media (min-width: 748px) {
+  .differences__item-title::after {
+    margin-left: 0px; }
+  .hint__title--differences {
+    margin-bottom: 10px; }
+  .differences__wrapper {
+    width: 572px;
+    position: relative; }
+  .hint--differences {
+    width: 522px; }
+    .hint--differences::after {
+      position: absolute;
+      display: block;
+      content: "";
+      width: 300px;
+      height: 300px;
+      z-index: -1;
+      background: #00bcd4;
+      bottom: -20px;
+      left: -20px; } }
+
+@media (min-width: 1920px) {
+  .hint__title--differences::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 300px;
+    height: 300px;
+    z-index: -1;
+    background: #00bcd4;
+    right: -20px;
+    top: 10px; }
+  .section__title--differences::after {
+    position: absolute;
+    display: block;
+    content: "";
+    top: 10px;
+    left: -100px;
+    width: 50%;
+    height: 50%;
+    z-index: -1;
+    background-image: url("/img/html15-20 fig 01.png");
+    background-size: 50%;
+    background-repeat: no-repeat; } }
+
+.gains__special {
+  font-size: 16px;
+  font-family: "OpenSans";
+  color: #242427;
+  line-height: 1.5; }
+  .gains__special::before {
+    display: block;
+    content: "";
+    background: #00bcd4;
+    width: 250px;
+    height: 2px;
+    margin: 0 auto; }
+
+.hint__text {
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: #242427;
+  line-height: 1.714; }
