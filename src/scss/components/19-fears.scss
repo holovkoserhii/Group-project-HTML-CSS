@@ -1,0 +1,104 @@
+.fears {
+  padding-top: 60px;
+}
+
+.section-wrapper{
+  max-width: 290px;
+  width: 100%;
+  margin: 0 auto;  
+}
+
+.fears__title{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 35px;            
+}
+
+.fears-img-block{
+  position: relative;
+  width: 290px;
+  height: 420px;
+} 
+
+.fears-img-block_underlay{
+  position: absolute;
+  background-color: #00b5cd;
+  width: 286px;
+  height: 388px;
+  left: 13px;
+  top: 8px;
+  z-index: 1;
+}
+
+.fears-img{
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+}
+
+.fears__post-desc{
+  width: 270px;
+  font-size: 14px;
+  line-height: 26px;
+  font-family: sans-serif;
+  margin-bottom: 35px;
+}
+
+.text-bold{
+  font-weight: 800;
+}
+
+.fears__post{
+  position: relative;
+  margin-bottom: 55px;
+}
+
+.fears__post-item-title{
+  width: 270px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;  
+  font-weight: bold;
+}
+
+.fears__post-item-desc{
+  font-size: 14px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.hint{ 
+  position: relative;
+  width: 253px;
+  height: 136px;
+  background-image: url("//src/img/fears-img/small-border.png");
+}
+
+.hint__conclusion{
+  position: absolute;
+  width: 180px;
+  height: 88px;
+  top: 20px;
+  z-index: 1;
+}
+@media(min-width: 768px){
+  .section-wrapper{
+    max-width: 690px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .fears{
+    padding-top: 84px;
+  }
+
+  .fears__title{
+    margin-bottom: 45px;
+  }
+
+}

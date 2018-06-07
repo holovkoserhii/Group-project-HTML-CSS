@@ -7,10 +7,12 @@
     background-repeat: no-repeat;
     color: $white-text-color;
 }
+
 .section-wrapper{
     max-width: 290px;
-    @extend %center-block;
+    @extend %block-center;
 }
+
 .overlay {
     position: absolute;
     width: 555px;
@@ -20,6 +22,7 @@
     top: 0;
     display: none;
 }
+
 .page-nav{
     @include list-flex;
     @extend %block-center;
@@ -29,18 +32,20 @@
     margin-bottom: 45px;
     z-index: 1;
 }
-  .logo-content {
+
+.logo-content {
     @include list-flex;
-      padding-top: 4px;
-  }
-  .logo-desc {
+    padding-top: 4px;
+}
+
+.logo-desc {
     display: none;
     color: $white-text-color;
 
       &__def{
     display: none;
-   }
-  }
+    }
+}
 
   .site-info{
      display: flex;
@@ -49,8 +54,9 @@
      justify-content: space-between;
      align-items: flex-end;
      flex-direction: column;
- }
- .text-info{
+}
+
+.text-info{
      margin: 0 auto;
 
       & p{
@@ -63,17 +69,18 @@
         color: $white-text-color;
         border: 1px solid $accent-text-color;
         text-transform: uppercase;
-        text-align: center;
-      }
-    }
-    .contact__text{
+        text-align: center; 
+     }
+}
+.contact__text{
         margin: 0;
         font-family: $secondary-text-font;
         font-size: 13px;
         line-height: 20px;
         color: $light-gray-color;
-    }
-    .contact__number{
+}
+
+.contact__number{
       font-family: $secondary-title-font;
       font-size: 14px;
       font-weight: 700;
@@ -87,14 +94,14 @@
       height: 1px;
       margin-top: 2px;
       margin-bottom: 2px;
-  }
+      }
 }
-    .contact__post{
+.contact__post{
       color: $dark-gray-color;
       background-color: $white-text-color;
       font-size: 16px;
       display: none;
-  }
+}
   .aside-text{
     display: none;
 }
@@ -128,12 +135,12 @@
     font-family: $primary-title-font;
     text-transform: uppercase;
     max-width: 290px;
-    
     margin-bottom: 36px;
     color: $white-text-color;
 
   &::before{
-     @extend %block-center;
+    width: 100%;
+     margin: 0 auto;
      content: "";
      background-color: $accent-text-color;
      width: 150px;
@@ -319,7 +326,7 @@
         background-image: url("../img/header-bg.png");
     }
  .section-wrapper{
-     @extend  %block-center;
+    /* @extend  %block-center;*/
      max-width: 1760px;
     }
    .overlay{
@@ -363,7 +370,7 @@
   }
   .text-info{
       margin: 0;
-      margin-top: -25px;
+      margin-top: -80px;
       width: 150px;
   }
   .text-info p {
@@ -388,7 +395,7 @@
     order: 1;
     max-width: 240px;
     width: 100%;
-    margin-top: 25px;
+    margin-top: -50px;
     
    &__post{
     display: block;
@@ -582,16 +589,17 @@
 }
 .aside-text {
     display: block;
-
-  &__block{
-    writing-mode: vertical-lr;
-  }
-    &::before{
-    content: "\005B";
-    display: inline-block;
-    color: $accent-text-color;
-    width: 16px;
-    height: 16px; 
+   
+    &__block{
+      writing-mode: vertical-lr;
+  
+       &::before{
+          content: "\005B";
+          display: inline-block;
+          color: $accent-text-color;
+          width: 16px;
+          height: 16px; 
+}
 }
 }
 }

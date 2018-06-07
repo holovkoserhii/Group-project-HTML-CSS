@@ -132,12 +132,11 @@ h2,h4{
 
     .section-wrapper{
         max-width: 1760px;
-        @extend %block-center;
+        
        }
 
     .transition {
     @include list-flex;
-    @extend %block-center;
     position: relative;
     padding-top: 145px;
     padding-bottom: 210px;
